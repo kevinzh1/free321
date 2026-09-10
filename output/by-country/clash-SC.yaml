@@ -5,6 +5,47 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - zhcxh
+  type: vless
+  server: 45.130.125.96
+  port: 443
+  uuid: 28607fa7-db30-47d6-942a-f5744e4be9ad
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: dfsuporte.garena.com.ex33r.eu.cc
+  network: ws
+  ws-opts:
+    path: /id-pusat
+    headers:
+      Host: dfsuporte.garena.com.ex33r.eu.cc
+- name: 🇸🇨 SC 02 - zhcxh
+  type: vless
+  server: 172.64.155.209
+  port: 8443
+  uuid: 4ff70740-8c80-48ae-985f-2afe4924e908
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: pubb.clnahanpnln.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: pubb.clnahanpnln.workers.dev
+- name: 🇸🇨 SC 03 - zhcxh
+  type: vless
+  server: upwork.com
+  port: 8880
+  uuid: a9fb0f8c-89e9-44ee-9574-a310c5bd259c
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: autumn-leaf-eefd.119-38e.workers.dev
+- name: 🇸🇨 SC 04 - zhcxh
   type: vmess
   server: 156.226.183.181
   port: 54321
@@ -14,17 +55,70 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇸🇨 SC 05 - zhcxh
+  type: vless
+  server: 141.101.114.241
+  port: 443
+  uuid: 3bb6fd82-3a15-eaea-6168-4dac2b70079e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nahan-fog-af01.dfghttr2012.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-fog-af01.dfghttr2012.workers.dev
+- name: 🇸🇨 SC 06 - zhcxh
+  type: vless
+  server: 172.67.202.235
+  port: 443
+  uuid: 566c0473-382e-aabb-c62a-f5bb00000000
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ez-4b5fd4.appelidmymat.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: ez-4b5fd4.appelidmymat.workers.dev
+- name: 🇸🇨 SC 07 - zhcxh
+  type: vless
+  server: 172.67.209.127
+  port: 8880
+  uuid: 1b3ad465-d37e-48a2-bb53-d7fddfc97b11
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: calm-silence-d4a1.217.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇸🇨 SC 01 - zhcxh
+  - 🇸🇨 SC 02 - zhcxh
+  - 🇸🇨 SC 03 - zhcxh
+  - 🇸🇨 SC 04 - zhcxh
+  - 🇸🇨 SC 05 - zhcxh
+  - 🇸🇨 SC 06 - zhcxh
+  - 🇸🇨 SC 07 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇸🇨 SC 01 - zhcxh
+  - 🇸🇨 SC 02 - zhcxh
+  - 🇸🇨 SC 03 - zhcxh
+  - 🇸🇨 SC 04 - zhcxh
+  - 🇸🇨 SC 05 - zhcxh
+  - 🇸🇨 SC 06 - zhcxh
+  - 🇸🇨 SC 07 - zhcxh
 rules:
 - MATCH,PROXIES

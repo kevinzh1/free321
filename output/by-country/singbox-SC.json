@@ -6,14 +6,26 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 SC 01 - zhcxh"
+        "🇸🇨 SC 01 - zhcxh",
+        "🇸🇨 SC 02 - zhcxh",
+        "🇸🇨 SC 03 - zhcxh",
+        "🇸🇨 SC 04 - zhcxh",
+        "🇸🇨 SC 05 - zhcxh",
+        "🇸🇨 SC 06 - zhcxh",
+        "🇸🇨 SC 07 - zhcxh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - zhcxh"
+        "🇸🇨 SC 01 - zhcxh",
+        "🇸🇨 SC 02 - zhcxh",
+        "🇸🇨 SC 03 - zhcxh",
+        "🇸🇨 SC 04 - zhcxh",
+        "🇸🇨 SC 05 - zhcxh",
+        "🇸🇨 SC 06 - zhcxh",
+        "🇸🇨 SC 07 - zhcxh"
       ],
       "url": "https://www.google.com/generate_204"
     },
