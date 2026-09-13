@@ -6,91 +6,8 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - zhcxh
   type: vless
-  server: 104.21.78.225
-  port: 443
-  uuid: 4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: curly-night-6928.ggdhchjk.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: curly-night-6928.ggdhchjk.workers.dev
-- name: 🇨🇿 CZ 02 - zhcxh
-  type: vless
-  server: 63.141.128.22
-  port: 443
-  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
-- name: 🇨🇿 CZ 03 - zhcxh
-  type: vless
-  server: 50.62.89.123
-  port: 443
-  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: notls.lukongtou.eu.org
-  network: ws
-  ws-opts:
-    path: /Telegram-WangCai2🇨🇳
-    headers:
-      Host: notls.lukongtou.eu.org
-- name: 🇨🇿 CZ 04 - zhcxh
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇨🇿 CZ 05 - zhcxh
-  type: vless
-  server: 104.21.67.236
-  port: 443
-  uuid: 96e341a7-3077-4613-b482-41bd9c90cc4d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: eZaCCesS-proJEcT-4C7950.Ez-dC9bBB.WorKErs.dEV
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiN2w4dDlRNVV5NkZ5NU1aeSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: ezaccess-project-4c7950.ez-dc9bbb.workers.dev
-- name: 🇨🇿 CZ 06 - zhcxh
-  type: vless
-  server: 104.21.78.9
-  port: 443
-  uuid: a8890c1b-3622-3106-c4be-d8671be32d2b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: summer-meadow-af5b.woowoorrrkk.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: summer-meadow-af5b.woowoorrrkk.workers.dev
-- name: 🇨🇿 CZ 07 - zhcxh
-  type: vless
-  server: 162.159.38.127
-  port: 2095
+  server: 172.64.42.85
+  port: 2082
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -100,6 +17,34 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇨🇿 CZ 02 - zhcxh
+  type: vless
+  server: 103.119.18.30
+  port: 443
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mianfei-73q.pages.dev
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
+- name: 🇨🇿 CZ 03 - zhcxh
+  type: vless
+  server: 103.119.18.30
+  port: 443
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mianfei-73q.pages.dev
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -108,10 +53,6 @@ proxy-groups:
   - 🇨🇿 CZ 01 - zhcxh
   - 🇨🇿 CZ 02 - zhcxh
   - 🇨🇿 CZ 03 - zhcxh
-  - 🇨🇿 CZ 04 - zhcxh
-  - 🇨🇿 CZ 05 - zhcxh
-  - 🇨🇿 CZ 06 - zhcxh
-  - 🇨🇿 CZ 07 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -120,9 +61,5 @@ proxy-groups:
   - 🇨🇿 CZ 01 - zhcxh
   - 🇨🇿 CZ 02 - zhcxh
   - 🇨🇿 CZ 03 - zhcxh
-  - 🇨🇿 CZ 04 - zhcxh
-  - 🇨🇿 CZ 05 - zhcxh
-  - 🇨🇿 CZ 06 - zhcxh
-  - 🇨🇿 CZ 07 - zhcxh
 rules:
 - MATCH,PROXIES
