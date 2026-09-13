@@ -5,19 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - zhcxh
-  type: vless
-  server: shop.neexbyte.ir
-  port: 8443
-  uuid: 464bc502-f963-45b6-81e3-e33d18427506
+  type: ss
+  server: 188.132.174.236
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: rSeYcig_XBy8q3k33NpK3A
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
 - name: 🇹🇷 土耳其 (Turkey) 02 - zhcxh
   type: vless
   server: connect3.nyxserver.ir
@@ -27,6 +20,13 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: connect3.nyxserver.ir
+- name: 🇹🇷 土耳其 (Turkey) 03 - zhcxh
+  type: ss
+  server: 185.39.204.3
+  port: 8098
+  cipher: chacha20-ietf-poly1305
+  password: PluSKSrbtxTvlVv7BOUwn4
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -34,6 +34,7 @@ proxy-groups:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - zhcxh
   - 🇹🇷 土耳其 (Turkey) 02 - zhcxh
+  - 🇹🇷 土耳其 (Turkey) 03 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -41,5 +42,6 @@ proxy-groups:
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - zhcxh
   - 🇹🇷 土耳其 (Turkey) 02 - zhcxh
+  - 🇹🇷 土耳其 (Turkey) 03 - zhcxh
 rules:
 - MATCH,PROXIES
