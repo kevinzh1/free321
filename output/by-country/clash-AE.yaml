@@ -6,60 +6,29 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - zhcxh
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 104.24.219.225
+  port: 443
+  uuid: c2c3de71-5ec5-430c-b096-81969b16ff8d
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: cdnfree.abdollahvand2.ir
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 02 - zhcxh
-  type: vless
-  server: 129.151.64.169
-  port: 31867
-  uuid: bd01efed-f999-41a5-bbb1-3d2357647f11
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 03 - zhcxh
-  type: vless
-  server: 45.76.87.125
-  port: 14750
-  uuid: c2c94230-7075-4558-89f4-ddf74d7de107
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+      Host: cdnfree.abdollahvand2.ir
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇦🇪 阿联酋 (UAE) 01 - zhcxh
-  - 🇦🇪 阿联酋 (UAE) 02 - zhcxh
-  - 🇦🇪 阿联酋 (UAE) 03 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇦🇪 阿联酋 (UAE) 01 - zhcxh
-  - 🇦🇪 阿联酋 (UAE) 02 - zhcxh
-  - 🇦🇪 阿联酋 (UAE) 03 - zhcxh
 rules:
 - MATCH,PROXIES
