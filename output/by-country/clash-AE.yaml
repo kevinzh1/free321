@@ -6,6 +6,18 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - zhcxh
   type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 1423f399-74d3-4d99-90b9-bc7cae1af706
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 02 - zhcxh
+  type: vless
   server: 84.235.244.108
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
@@ -17,7 +29,7 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 02 - zhcxh
+- name: 🇦🇪 阿联酋 (UAE) 03 - zhcxh
   type: vless
   server: 89.125.147.199
   port: 443
@@ -28,8 +40,8 @@ proxies:
   reality-opts:
     public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
   servername: maps.apple.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 03 - zhcxh
+  client-fingerprint: chrome
+- name: 🇦🇪 阿联酋 (UAE) 04 - zhcxh
   type: vless
   server: uae.unixzone.us
   port: 22573
@@ -42,7 +54,7 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 04 - zhcxh
+- name: 🇦🇪 阿联酋 (UAE) 05 - zhcxh
   type: vless
   server: 89.125.147.199
   port: 443
@@ -53,8 +65,34 @@ proxies:
   reality-opts:
     public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
   servername: maps.apple.com
-  client-fingerprint: chrome
-- name: 🇦🇪 阿联酋 (UAE) 05 - zhcxh
+  client-fingerprint: random
+- name: 🇦🇪 阿联酋 (UAE) 06 - zhcxh
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 07 - zhcxh
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 08 - zhcxh
   type: vless
   server: cdn.snobvpn.online
   port: 80
@@ -77,6 +115,9 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - zhcxh
   - 🇦🇪 阿联酋 (UAE) 04 - zhcxh
   - 🇦🇪 阿联酋 (UAE) 05 - zhcxh
+  - 🇦🇪 阿联酋 (UAE) 06 - zhcxh
+  - 🇦🇪 阿联酋 (UAE) 07 - zhcxh
+  - 🇦🇪 阿联酋 (UAE) 08 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -87,5 +128,8 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - zhcxh
   - 🇦🇪 阿联酋 (UAE) 04 - zhcxh
   - 🇦🇪 阿联酋 (UAE) 05 - zhcxh
+  - 🇦🇪 阿联酋 (UAE) 06 - zhcxh
+  - 🇦🇪 阿联酋 (UAE) 07 - zhcxh
+  - 🇦🇪 阿联酋 (UAE) 08 - zhcxh
 rules:
 - MATCH,PROXIES
