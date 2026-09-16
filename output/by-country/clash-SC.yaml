@@ -4,22 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇿 CZ 01 - zhcxh
+- name: 🇸🇨 SC 01 - zhcxh
   type: vless
-  server: 188.114.97.6
-  port: 2082
+  server: 162.159.0.53
+  port: 8880
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560security=tls
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇨🇿 CZ 02 - zhcxh
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇸🇨 SC 02 - zhcxh
   type: vless
-  server: 172.64.229.2
+  server: 162.159.0.169
   port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -27,7 +27,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls+
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 proxy-groups:
@@ -35,14 +35,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇨🇿 CZ 01 - zhcxh
-  - 🇨🇿 CZ 02 - zhcxh
+  - 🇸🇨 SC 01 - zhcxh
+  - 🇸🇨 SC 02 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇿 CZ 01 - zhcxh
-  - 🇨🇿 CZ 02 - zhcxh
+  - 🇸🇨 SC 01 - zhcxh
+  - 🇸🇨 SC 02 - zhcxh
 rules:
 - MATCH,PROXIES
