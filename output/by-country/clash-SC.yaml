@@ -4,10 +4,10 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (家宽) - zhcxh
+- name: 🇸🇨 SC 01 - zhcxh
   type: vless
-  server: 172.64.52.6
-  port: 2086
+  server: 162.159.24.131
+  port: 2095
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -22,12 +22,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (家宽) - zhcxh
+  - 🇸🇨 SC 01 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (家宽) - zhcxh
+  - 🇸🇨 SC 01 - zhcxh
 rules:
 - MATCH,PROXIES
