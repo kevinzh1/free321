@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇴 NO 01 - zhcxh"
+        "🇳🇴 NO 01 - zhcxh",
+        "🇳🇴 NO 02 - zhcxh",
+        "🇳🇴 NO 03 - zhcxh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 NO 01 - zhcxh"
+        "🇳🇴 NO 01 - zhcxh",
+        "🇳🇴 NO 02 - zhcxh",
+        "🇳🇴 NO 03 - zhcxh"
       ],
       "url": "https://www.google.com/generate_204"
     },
