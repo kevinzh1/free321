@@ -17,17 +17,31 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 02 - zhcxh
+  type: vless
+  server: 89.125.147.199
+  port: 443
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇦🇪 阿联酋 (UAE) 01 - zhcxh
+  - 🇦🇪 阿联酋 (UAE) 02 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇦🇪 阿联酋 (UAE) 01 - zhcxh
+  - 🇦🇪 阿联酋 (UAE) 02 - zhcxh
 rules:
 - MATCH,PROXIES
