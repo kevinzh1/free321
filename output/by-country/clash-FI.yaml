@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - zhcxh
   type: vless
-  server: 212.104.128.27
+  server: 212.104.128.139
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 02 - zhcxh
   type: vless
-  server: 212.104.128.68
+  server: 212.104.128.217
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -48,18 +48,18 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 04 - zhcxh
   type: vless
-  server: 212.104.128.152
+  server: 151.101.56.6
   port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  uuid: 9503e890-3702-4847-af0a-2bceac2f0da0
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
+  servername: ssl.fastly.
   network: ws
   ws-opts:
-    path: /
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: c12.com
 - name: 🇫🇮 FI 05 - zhcxh
   type: vless
   server: 212.104.128.45
@@ -76,7 +76,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 06 - zhcxh
   type: vless
-  server: 212.104.128.45
+  server: 212.104.128.206
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -90,7 +90,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 07 - zhcxh
   type: vless
-  server: 212.104.128.244
+  server: 212.104.128.152
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -104,7 +104,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 08 - zhcxh
   type: vless
-  server: 212.104.128.152
+  server: 212.104.128.68
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -118,7 +118,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 09 - zhcxh
   type: vless
-  server: 212.104.128.217
+  server: 212.104.128.152
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -132,7 +132,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 10 - zhcxh
   type: vless
-  server: 212.104.128.27
+  server: 212.104.128.45
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -146,7 +146,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 11 - zhcxh
   type: vless
-  server: 212.104.128.139
+  server: 212.104.128.106
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -160,7 +160,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 12 - zhcxh
   type: vless
-  server: 212.104.128.206
+  server: 212.104.128.27
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -174,32 +174,31 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 13 - zhcxh
   type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🇫🇮 FI 14 - zhcxh
-  type: vless
-  server: 212.104.128.106
+  server: a2.arshia-nova.ir
   port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  uuid: ac3ef9c7-5732-4726-e7c6-3c73703987c7
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
+  servername: ssl.fastly.com
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: c12.com
+- name: 🇫🇮 FI 14 - zhcxh
+  type: vless
+  server: 146.75.119.82
+  port: 80
+  uuid: 47dee644-2f74-466e-b35a-195f5faa7c31
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+    headers:
+      Host: rb24.ir
 - name: 🇫🇮 FI 15 - zhcxh
   type: vless
   server: 212.104.128.106
@@ -216,7 +215,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 16 - zhcxh
   type: vless
-  server: 212.104.128.68
+  server: 212.104.128.27
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -225,7 +224,21 @@ proxies:
   servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 17 - zhcxh
+  type: vless
+  server: 212.104.128.244
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
     headers:
       Host: xi.tbv.ccwu.cc
 proxy-groups:
@@ -249,6 +262,7 @@ proxy-groups:
   - 🇫🇮 FI 14 - zhcxh
   - 🇫🇮 FI 15 - zhcxh
   - 🇫🇮 FI 16 - zhcxh
+  - 🇫🇮 FI 17 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -270,5 +284,6 @@ proxy-groups:
   - 🇫🇮 FI 14 - zhcxh
   - 🇫🇮 FI 15 - zhcxh
   - 🇫🇮 FI 16 - zhcxh
+  - 🇫🇮 FI 17 - zhcxh
 rules:
 - MATCH,PROXIES
