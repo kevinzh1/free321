@@ -4,10 +4,10 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇩🇪 德国 (Germany) 01 (家宽) - zhcxh
+- name: 🇱🇻 LV 01 - zhcxh
   type: vless
-  server: 109.107.155.76
-  port: 2053
+  server: 45.38.139.23
+  port: 8443
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
@@ -15,7 +15,7 @@ proxies:
   servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /
+    path: '%2Fjumping%2Fclass%2Fbt%3Fed%3D2560'
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
@@ -23,12 +23,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇩🇪 德国 (Germany) 01 (家宽) - zhcxh
+  - 🇱🇻 LV 01 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇩🇪 德国 (Germany) 01 (家宽) - zhcxh
+  - 🇱🇻 LV 01 - zhcxh
 rules:
 - MATCH,PROXIES
