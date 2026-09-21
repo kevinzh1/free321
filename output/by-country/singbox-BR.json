@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇧🇷 BR 01 - zhcxh",
+        "🇧🇷 BR 02 - zhcxh",
+        "🇧🇷 BR 03 - zhcxh"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇧🇷 BR 01 - zhcxh",
+        "🇧🇷 BR 02 - zhcxh",
+        "🇧🇷 BR 03 - zhcxh"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
