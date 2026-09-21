@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - zhcxh
   type: vless
-  server: cz1.zuoai.cf
+  server: 195.85.23.219
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -15,7 +15,7 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 02 - zhcxh
@@ -29,12 +29,26 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 03 - zhcxh
   type: vless
-  server: 195.85.23.45
+  server: 45.130.125.207
+  port: 8443
+  uuid: 31aa0950-eb19-45ff-94a2-af416deb3b90
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: square-salad-ebde.zdfgvccfguuyggg.workers.dev
+- name: 🇨🇿 CZ 04 - zhcxh
+  type: vless
+  server: 195.85.23.47
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -46,7 +60,35 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 04 - zhcxh
+- name: 🇨🇿 CZ 05 - zhcxh
+  type: vless
+  server: 195.85.23.88
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 06 - zhcxh
+  type: vless
+  server: 104.21.3.133
+  port: 2083
+  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fans.liverpool.qzz.io
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: fans.liverpool.qzz.io
+- name: 🇨🇿 CZ 07 - zhcxh
   type: vless
   server: 195.85.23.88
   port: 443
@@ -60,35 +102,7 @@ proxies:
     path: /
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 05 - zhcxh
-  type: vless
-  server: 195.85.23.252
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 06 - zhcxh
-  type: vless
-  server: 195.85.23.29
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 07 - zhcxh
+- name: 🇨🇿 CZ 08 - zhcxh
   type: vless
   server: 195.85.23.217
   port: 443
@@ -102,9 +116,9 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 08 - zhcxh
+- name: 🇨🇿 CZ 09 - zhcxh
   type: vless
-  server: 195.85.23.47
+  server: 195.85.23.29
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -113,7 +127,35 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 10 - zhcxh
+  type: vless
+  server: cz1.zuoai.cf
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 11 - zhcxh
+  type: vless
+  server: 195.85.23.252
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
     headers:
       Host: nb.lovecf.ggff.net
 proxy-groups:
@@ -129,6 +171,9 @@ proxy-groups:
   - 🇨🇿 CZ 06 - zhcxh
   - 🇨🇿 CZ 07 - zhcxh
   - 🇨🇿 CZ 08 - zhcxh
+  - 🇨🇿 CZ 09 - zhcxh
+  - 🇨🇿 CZ 10 - zhcxh
+  - 🇨🇿 CZ 11 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -142,5 +187,8 @@ proxy-groups:
   - 🇨🇿 CZ 06 - zhcxh
   - 🇨🇿 CZ 07 - zhcxh
   - 🇨🇿 CZ 08 - zhcxh
+  - 🇨🇿 CZ 09 - zhcxh
+  - 🇨🇿 CZ 10 - zhcxh
+  - 🇨🇿 CZ 11 - zhcxh
 rules:
 - MATCH,PROXIES
