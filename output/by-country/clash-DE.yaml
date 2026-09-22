@@ -19,53 +19,94 @@ proxies:
     headers:
       Host: edge.yzkvm.top
 - name: 🇩🇪 德国 (Germany) 02 - zhcxh
-  type: vless
-  server: 64.226.95.244
-  port: 2096
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  type: ss
+  server: 209.46.102.22
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: 1hhrqrokj3ag
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf3.schzyc.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cf3.schzyc.cc.cd
 - name: 🇩🇪 德国 (Germany) 03 - zhcxh
   type: vless
-  server: 46.101.253.244
-  port: 2083
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  server: 162.55.242.208
+  port: 2053
+  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: edge.yzkvm.top
+  reality-opts:
+    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 (Germany) 04 - zhcxh
+  type: ss
+  server: 185.226.172.8
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🇩🇪 德国 (Germany) 05 - zhcxh
+  type: vless
+  server: 162.55.242.208
+  port: 2053
+  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 06 - zhcxh
+  type: vless
+  server: 163.8.195.241
+  port: 2087
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /29c8fed7ca22
     headers:
-      Host: edge.yzkvm.top
-- name: 🇩🇪 德国 (Germany) 04 - zhcxh
+      Host: 163.8.195.241
+- name: 🇩🇪 德国 (Germany) 07 - zhcxh
+  type: vless
+  server: 162.55.242.208
+  port: 2053
+  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 (Germany) 08 - zhcxh
+  type: vless
+  server: 163.8.195.241
+  port: 2087
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /29c8fed7ca22
+    headers:
+      Host: zoom.us
+- name: 🇩🇪 德国 (Germany) 09 - zhcxh
   type: vmess
-  server: 216.106.187.60
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  server: huifkhrte386.greendop.com
+  port: 8080
+  uuid: d73de85a-6434-44cc-a81d-e2576b3fbd43
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 05 - zhcxh
-  type: ss
-  server: 2.58.81.221
-  port: 80
-  cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
-  udp: true
-- name: 🇩🇪 德国 (Germany) 06 - zhcxh
+- name: 🇩🇪 德国 (Germany) 10 - zhcxh
   type: vmess
-  server: 82.198.246.97
+  server: 82.198.246.250
   port: 180
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
@@ -73,7 +114,35 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 07 - zhcxh
+- name: 🇩🇪 德国 (Germany) 11 - zhcxh
+  type: vless
+  server: 92.119.126.189
+  port: 8443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇩🇪 德国 (Germany) 12 - zhcxh
+  type: vless
+  server: 109.120.138.192
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇩🇪 德国 (Germany) 13 - zhcxh
   type: vless
   server: 172.67.130.159
   port: 2096
@@ -87,19 +156,9 @@ proxies:
     path: /3cagtz3
     headers:
       Host: cdn-de.skyvora.app
-- name: 🇩🇪 德国 (Germany) 08 - zhcxh
-  type: vmess
-  server: 82.198.246.250
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 09 - zhcxh
+- name: 🇩🇪 德国 (Germany) 14 - zhcxh
   type: vless
-  server: 103.228.168.182
+  server: 109.176.202.20
   port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
@@ -111,7 +170,57 @@ proxies:
     path: /
     headers:
       Host: shuma.ccwu.cc
-- name: 🇩🇪 德国 (Germany) 10 - zhcxh
+- name: 🇩🇪 德国 (Germany) 15 - zhcxh
+  type: ss
+  server: 2.58.81.221
+  port: 443
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
+  udp: true
+- name: 🇩🇪 德国 (Germany) 16 - zhcxh
+  type: vless
+  server: 162.55.242.208
+  port: 2053
+  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇩🇪 德国 (Germany) 17 - zhcxh
+  type: vmess
+  server: 216.106.187.60
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 18 - zhcxh
+  type: vless
+  server: 46.101.253.244
+  port: 2083
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edge.yzkvm.top
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edge.yzkvm.top
+- name: 🇩🇪 德国 (Germany) 19 - zhcxh
+  type: ss
+  server: 185.226.172.8
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🇩🇪 德国 (Germany) 20 - zhcxh
   type: vless
   server: 103.200.28.113
   port: 8443
@@ -125,61 +234,72 @@ proxies:
     path: /
     headers:
       Host: shuma.ccwu.cc
-- name: 🇩🇪 德国 (Germany) 11 - zhcxh
+- name: 🇩🇪 德国 (Germany) 21 - zhcxh
+  type: vmess
+  server: 216.106.187.60
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 22 - zhcxh
+  type: vmess
+  server: 82.198.246.37
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 23 - zhcxh
   type: ss
-  server: 209.46.102.22
-  port: 8388
+  server: 8.209.74.72
+  port: 20001
   cipher: chacha20-ietf-poly1305
-  password: 1hhrqrokj3ag
+  password: PWpjPo3tqhPN4yRZ
   udp: true
-- name: 🇩🇪 德国 (Germany) 12 - zhcxh
-  type: ss
-  server: 185.226.172.8
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
+- name: 🇩🇪 德国 (Germany) 24 - zhcxh
+  type: vless
+  server: 103.228.168.182
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
-- name: 🇩🇪 德国 (Germany) 13 - zhcxh
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇩🇪 德国 (Germany) 25 - zhcxh
   type: vmess
-  server: 82.198.246.250
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  server: 216.106.187.60
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 14 - zhcxh
-  type: vmess
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
+- name: 🇩🇪 德国 (Germany) 26 - zhcxh
+  type: vless
+  server: 103.109.234.61
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 15 - zhcxh
-  type: vmess
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 16 - zhcxh
-  type: vmess
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 17 - zhcxh
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇩🇪 德国 (Germany) 27 - zhcxh
   type: vmess
   server: kentspark.org
   port: 443
@@ -217,6 +337,16 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 15 - zhcxh
   - 🇩🇪 德国 (Germany) 16 - zhcxh
   - 🇩🇪 德国 (Germany) 17 - zhcxh
+  - 🇩🇪 德国 (Germany) 18 - zhcxh
+  - 🇩🇪 德国 (Germany) 19 - zhcxh
+  - 🇩🇪 德国 (Germany) 20 - zhcxh
+  - 🇩🇪 德国 (Germany) 21 - zhcxh
+  - 🇩🇪 德国 (Germany) 22 - zhcxh
+  - 🇩🇪 德国 (Germany) 23 - zhcxh
+  - 🇩🇪 德国 (Germany) 24 - zhcxh
+  - 🇩🇪 德国 (Germany) 25 - zhcxh
+  - 🇩🇪 德国 (Germany) 26 - zhcxh
+  - 🇩🇪 德国 (Germany) 27 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -239,5 +369,15 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 15 - zhcxh
   - 🇩🇪 德国 (Germany) 16 - zhcxh
   - 🇩🇪 德国 (Germany) 17 - zhcxh
+  - 🇩🇪 德国 (Germany) 18 - zhcxh
+  - 🇩🇪 德国 (Germany) 19 - zhcxh
+  - 🇩🇪 德国 (Germany) 20 - zhcxh
+  - 🇩🇪 德国 (Germany) 21 - zhcxh
+  - 🇩🇪 德国 (Germany) 22 - zhcxh
+  - 🇩🇪 德国 (Germany) 23 - zhcxh
+  - 🇩🇪 德国 (Germany) 24 - zhcxh
+  - 🇩🇪 德国 (Germany) 25 - zhcxh
+  - 🇩🇪 德国 (Germany) 26 - zhcxh
+  - 🇩🇪 德国 (Germany) 27 - zhcxh
 rules:
 - MATCH,PROXIES
