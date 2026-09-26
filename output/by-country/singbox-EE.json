@@ -6,14 +6,32 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 EE 01 - zhcxh"
+        "🇪🇪 EE 01 - zhcxh",
+        "🇪🇪 EE 02 - zhcxh",
+        "🇪🇪 EE 03 - zhcxh",
+        "🇪🇪 EE 04 - zhcxh",
+        "🇪🇪 EE 05 - zhcxh",
+        "🇪🇪 EE 06 - zhcxh",
+        "🇪🇪 EE 07 - zhcxh",
+        "🇪🇪 EE 08 - zhcxh",
+        "🇪🇪 EE 09 - zhcxh",
+        "🇪🇪 EE 10 - zhcxh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 EE 01 - zhcxh"
+        "🇪🇪 EE 01 - zhcxh",
+        "🇪🇪 EE 02 - zhcxh",
+        "🇪🇪 EE 03 - zhcxh",
+        "🇪🇪 EE 04 - zhcxh",
+        "🇪🇪 EE 05 - zhcxh",
+        "🇪🇪 EE 06 - zhcxh",
+        "🇪🇪 EE 07 - zhcxh",
+        "🇪🇪 EE 08 - zhcxh",
+        "🇪🇪 EE 09 - zhcxh",
+        "🇪🇪 EE 10 - zhcxh"
       ],
       "url": "https://www.google.com/generate_204"
     },
