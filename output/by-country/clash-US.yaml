@@ -6,20 +6,7 @@ log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 - zhcxh
   type: vless
-  server: 104.18.39.218
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 02 - zhcxh
-  type: vless
-  server: 172.64.42.85
+  server: 172.64.229.170
   port: 2095
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -27,71 +14,10 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: ?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 03 - zhcxh
-  type: vless
-  server: 172.64.229.170
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 04 - zhcxh
-  type: vless
-  server: 162.159.0.169
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 05 - zhcxh
-  type: vmess
-  server: 84.17.41.2
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 06 - zhcxh
-  type: vless
-  server: 162.159.38.127
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 07 - zhcxh
-  type: vless
-  server: 198.251.78.29
-  port: 2053
-  uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇺🇸 美国 (United States) 08 - zhcxh
+- name: 🇺🇸 美国 (United States) 02 - zhcxh
   type: vless
   server: cf.877774.xyz
   port: 8443
@@ -105,147 +31,9 @@ proxies:
     path: /fp=chrome
     headers:
       Host: edgetunnel-4uw.pages.dev
-- name: 🇺🇸 美国 (United States) 09 - zhcxh
+- name: 🇺🇸 美国 (United States) 03 - zhcxh
   type: vless
-  server: 104.18.46.46
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 10 - zhcxh
-  type: vless
-  server: 162.159.0.169
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 11 - zhcxh
-  type: ss
-  server: 15.204.247.124
-  port: 2375
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-  udp: true
-- name: 🇺🇸 美国 (United States) 12 - zhcxh
-  type: vless
-  server: 162.35.104.144
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 162.35.104.144
-- name: 🇺🇸 美国 (United States) 13 - zhcxh
-  type: ss
-  server: 37.19.198.236
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 14 - zhcxh
-  type: vless
-  server: 198.251.78.29
-  port: 2053
-  uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 15 - zhcxh
-  type: ss
-  server: 108.181.118.10
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: G5p6ww4o67HB
-  udp: true
-- name: 🇺🇸 美国 (United States) 16 - zhcxh
-  type: vless
-  server: 172.64.154.8
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 17 - zhcxh
-  type: vless
-  server: 162.159.48.32
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 18 - zhcxh
-  type: vless
-  server: 162.159.0.169
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 19 - zhcxh
-  type: vless
-  server: cf.877774.xyz
-  port: 8443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇺🇸 美国 (United States) 20 - zhcxh
-  type: vless
-  server: 172.64.229.2
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 21 - zhcxh
-  type: vless
-  server: 108.162.198.178
+  server: 188.114.97.6
   port: 8080
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -253,286 +41,24 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 22 - zhcxh
-  type: vmess
-  server: 169.197.142.22
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 23 - zhcxh
+      Host: ne4d3.thir.mn8.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 04 - zhcxh
   type: vless
-  server: 162.159.0.169
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 24 - zhcxh
-  type: vless
-  server: 162.159.48.32
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 25 - zhcxh
-  type: vless
-  server: 38.107.236.166
+  server: 144.31.243.120
   port: 8443
-  uuid: 48572af1-d091-457b-a86e-4a457e99927f
+  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 3h-unitedstates3.09vpn.com
+  servername: yf.962456.xyz
   network: ws
   ws-opts:
-    path: /vless/
+    path: /proxyip=kr.william.us.ci
     headers:
-      Host: 3h-unitedstates3.09vpn.com
-- name: 🇺🇸 美国 (United States) 26 - zhcxh
-  type: vless
-  server: 172.64.53.55
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 27 - zhcxh
-  type: vless
-  server: 188.114.97.6
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 28 - zhcxh
-  type: vless
-  server: 172.64.53.55
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 29 - zhcxh
-  type: vless
-  server: 172.64.154.8
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 30 - zhcxh
-  type: vless
-  server: 162.159.39.218
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 31 - zhcxh
-  type: vless
-  server: 162.159.39.218
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 32 - zhcxh
-  type: vless
-  server: 108.162.198.178
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 33 - zhcxh
-  type: vless
-  server: 172.64.32.103
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 34 - zhcxh
-  type: vless
-  server: 104.18.34.14
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 35 - zhcxh
-  type: vless
-  server: 172.66.40.161
-  port: 443
-  uuid: c47eb7ab-2c2d-44e0-80cc-bb104f89a137
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: www.terence-tunnel.org
-  network: ws
-  ws-opts:
-    path: /tunnel
-    headers:
-      Host: www.terence-tunnel.org
-- name: 🇺🇸 美国 (United States) 36 - zhcxh
-  type: vless
-  server: 108.162.198.178
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 37 - zhcxh
-  type: vless
-  server: 172.64.229.2
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 38 - zhcxh
-  type: vless
-  server: 188.114.97.6
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 39 - zhcxh
-  type: vless
-  server: 172.64.229.2
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 40 - zhcxh
-  type: vless
-  server: 172.64.42.85
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 41 - zhcxh
-  type: vless
-  server: 172.64.32.103
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 42 - zhcxh
-  type: vmess
-  server: 216.106.185.141
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 43 - zhcxh
-  type: ss
-  server: 37.19.198.244
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 44 - zhcxh
+      Host: yf.962456.xyz
+- name: 🇺🇸 美国 (United States) 05 - zhcxh
   type: vless
   server: 198.251.78.29
   port: 2053
@@ -544,10 +70,10 @@ proxies:
     public-key: Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw
   servername: www.cloudflare.com
   client-fingerprint: edge
-- name: 🇺🇸 美国 (United States) 45 - zhcxh
+- name: 🇺🇸 美国 (United States) 06 - zhcxh
   type: vless
-  server: 108.162.198.178
-  port: 8080
+  server: 172.64.154.8
+  port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -557,7 +83,138 @@ proxies:
     path: /
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 46 - zhcxh
+- name: 🇺🇸 美国 (United States) 07 - zhcxh
+  type: ss
+  server: 37.19.198.243
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 08 - zhcxh
+  type: vless
+  server: 104.18.46.46
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 09 - zhcxh
+  type: vless
+  server: 172.64.229.2
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 10 - zhcxh
+  type: ss
+  server: 85.209.157.184
+  port: 8388
+  cipher: 2022-blake3-aes-128-gcm
+  password: EIIwJPg8YqgnjLLd58zoTg==:MwxxR64bpSmXVU+ufX6xvw==
+  udp: true
+- name: 🇺🇸 美国 (United States) 11 - zhcxh
+  type: vless
+  server: 162.159.0.169
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 12 - zhcxh
+  type: vless
+  server: 172.64.42.85
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 13 - zhcxh
+  type: vless
+  server: 172.64.53.55
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 14 - zhcxh
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 15 - zhcxh
+  type: vless
+  server: 162.159.45.19
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 16 - zhcxh
+  type: vless
+  server: 162.159.24.131
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 17 - zhcxh
+  type: vmess
+  server: khasav.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: ''
+- name: 🇺🇸 美国 (United States) 18 - zhcxh
   type: vless
   server: 199.232.78.159
   port: 443
@@ -570,552 +227,15 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: pannn1.global.ssl.fastly.net
-- name: 🇺🇸 美国 (United States) 47 - zhcxh
-  type: vless
-  server: 104.18.46.46
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 48 - zhcxh
-  type: vless
-  server: 188.114.97.6
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 49 - zhcxh
-  type: vmess
-  server: 84.17.41.2
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 50 - zhcxh
-  type: vless
-  server: 162.159.45.19
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 51 - zhcxh
-  type: vless
-  server: 108.162.198.178
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 52 - zhcxh
-  type: vless
-  server: 104.18.47.113
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 53 - zhcxh
-  type: vmess
-  server: 84.17.41.2
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 54 - zhcxh
-  type: vless
-  server: 108.162.198.178
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 55 - zhcxh
-  type: vless
-  server: 172.64.154.8
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 56 - zhcxh
-  type: vless
-  server: 198.251.78.29
-  port: 2053
-  uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw
-  servername: www.cloudflare.com
-  client-fingerprint: edge
-- name: 🇺🇸 美国 (United States) 57 - zhcxh
-  type: vless
-  server: 162.159.39.218
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 58 - zhcxh
-  type: vless
-  server: 162.159.24.131
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 59 - zhcxh
-  type: vless
-  server: 172.64.53.55
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 60 - zhcxh
-  type: vless
-  server: 172.64.154.8
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 61 - zhcxh
-  type: vless
-  server: 108.162.198.178
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 62 - zhcxh
-  type: vless
-  server: 108.162.198.178
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 63 - zhcxh
-  type: vmess
-  server: 216.106.183.35
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 1
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 64 - zhcxh
-  type: vmess
-  server: 67.220.95.3
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 65 - zhcxh
-  type: vmess
-  server: 67.220.95.3
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 66 - zhcxh
-  type: vmess
-  server: 216.106.183.35
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 67 - zhcxh
-  type: vmess
-  server: 38.110.1.246
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 68 - zhcxh
-  type: vmess
-  server: 172.111.38.100
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 69 - zhcxh
-  type: vmess
-  server: 172.111.38.100
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 70 - zhcxh
-  type: vmess
-  server: 172.111.38.100
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 71 - zhcxh
-  type: vless
-  server: 172.64.42.85
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 72 - zhcxh
-  type: vless
-  server: 162.159.38.127
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 73 - zhcxh
-  type: vless
-  server: 198.251.78.29
-  port: 2053
-  uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 74 - zhcxh
-  type: vmess
-  server: 38.91.107.49
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 75 - zhcxh
+      Host: pan2e.global.ssl.fastly.net
+- name: 🇺🇸 美国 (United States) 19 - zhcxh
   type: ss
-  server: 15.204.233.41
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 🇺🇸 美国 (United States) 76 - zhcxh
-  type: vless
-  server: 104.18.34.14
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 77 - zhcxh
-  type: vmess
-  server: 67.220.95.3
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 78 - zhcxh
-  type: vless
-  server: 162.159.43.187
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 79 - zhcxh
-  type: vmess
-  server: 167.88.63.59
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 80 - zhcxh
-  type: vless
-  server: cf.877774.xyz
-  port: 8443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇺🇸 美国 (United States) 81 - zhcxh
-  type: vmess
-  server: vspeedfast.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: ''
-- name: 🇺🇸 美国 (United States) 82 - zhcxh
-  type: vmess
-  server: vspeedfast.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: ''
-- name: 🇺🇸 美国 (United States) 83 - zhcxh
-  type: vless
-  server: 104.18.47.113
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 84 - zhcxh
-  type: vless
-  server: 104.21.70.21
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 85 - zhcxh
-  type: vless
-  server: cf.877774.xyz
-  port: 8443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇺🇸 美国 (United States) 86 - zhcxh
-  type: vless
-  server: 162.159.0.53
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 87 - zhcxh
-  type: vless
-  server: 172.64.229.2
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 88 - zhcxh
-  type: vmess
-  server: 169.197.143.116
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 89 - zhcxh
-  type: ss
-  server: 37.19.198.160
-  port: 443
+  server: 173.234.25.93
+  port: 15243
   cipher: aes-128-gcm
-  password: shadowsocks
+  password: 62dd75ba944947d4ca983cf1679b3797
   udp: true
-- name: 🇺🇸 美国 (United States) 90 - zhcxh
-  type: vmess
-  server: 169.197.143.116
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 91 - zhcxh
-  type: vmess
-  server: 216.106.185.141
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 92 - zhcxh
-  type: vless
-  server: 162.35.96.22
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 162.35.96.22
-- name: 🇺🇸 美国 (United States) 93 - zhcxh
+- name: 🇺🇸 美国 (United States) 20 - zhcxh
   type: vmess
   server: 216.106.183.35
   port: 443
@@ -1131,9 +251,42 @@ proxies:
     path: /linkvws
     headers:
       Host: aksai.org
-- name: 🇺🇸 美国 (United States) 94 - zhcxh
+- name: 🇺🇸 美国 (United States) 21 - zhcxh
   type: vless
-  server: 108.162.198.178
+  server: 188.114.97.6
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 22 - zhcxh
+  type: ss
+  server: 173.244.56.6
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 23 - zhcxh
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 24 - zhcxh
+  type: vless
+  server: 162.159.39.218
   port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -1144,10 +297,10 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 95 - zhcxh
+- name: 🇺🇸 美国 (United States) 25 - zhcxh
   type: vless
-  server: 172.64.158.146
-  port: 8880
+  server: 104.18.34.14
+  port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -1157,137 +310,19 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 96 - zhcxh
-  type: ss
-  server: 37.19.198.243
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 97 - zhcxh
-  type: vless
-  server: 162.159.48.32
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- name: 🇺🇸 美国 (United States) 26 - zhcxh
+  type: vmess
+  server: 216.106.183.35
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 98 - zhcxh
-  type: ss
-  server: 198.98.53.130
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: eDfN7SODQceIOmIAbtJJtK
-  udp: true
-- name: 🇺🇸 美国 (United States) 99 - zhcxh
+- name: 🇺🇸 美国 (United States) 27 - zhcxh
   type: vless
-  server: 162.159.48.32
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 100 - zhcxh
-  type: vless
-  server: 162.159.0.53
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 101 - zhcxh
-  type: vless
-  server: 162.159.0.53
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 102 - zhcxh
-  type: ss
-  server: 156.146.38.170
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 103 - zhcxh
-  type: ss
-  server: 153.75.232.60
-  port: 19432
-  cipher: aes-128-gcm
-  password: a818dabb1c55642c3066e5ff8ac780e8
-  udp: true
-- name: 🇺🇸 美国 (United States) 104 - zhcxh
-  type: vless
-  server: cf.877774.xyz
-  port: 8443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇺🇸 美国 (United States) 105 - zhcxh
-  type: vless
-  server: cf.877774.xyz
-  port: 8443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇺🇸 美国 (United States) 106 - zhcxh
-  type: vless
-  server: 162.159.45.19
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 107 - zhcxh
-  type: ss
-  server: 156.146.38.167
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 108 - zhcxh
-  type: vless
-  server: 188.114.97.6
+  server: 172.64.229.2
   port: 2082
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -1295,65 +330,13 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 109 - zhcxh
-  type: vless
-  server: 108.162.198.178
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 110 - zhcxh
+- name: 🇺🇸 美国 (United States) 28 - zhcxh
   type: vless
-  server: cf.877774.xyz
-  port: 8443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇺🇸 美国 (United States) 111 - zhcxh
-  type: vmess
-  server: 129.146.77.248
-  port: 39495
-  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: 129.146.77.248
-- name: 🇺🇸 美国 (United States) 112 - zhcxh
-  type: vmess
-  server: 67.220.85.46
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 113 - zhcxh
-  type: vless
-  server: 172.64.158.146
-  port: 8880
+  server: 172.64.154.8
+  port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -1363,9 +346,38 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 114 - zhcxh
+- name: 🇺🇸 美国 (United States) 29 - zhcxh
   type: vless
-  server: 172.64.32.108
+  server: 172.64.32.103
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 30 - zhcxh
+  type: vmess
+  server: 66.163.115.23
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: ''
+- name: 🇺🇸 美国 (United States) 31 - zhcxh
+  type: vless
+  server: 162.159.24.131
   port: 8080
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -1376,139 +388,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 115 - zhcxh
-  type: vmess
-  server: 169.197.142.22
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 116 - zhcxh
-  type: vless
-  server: 172.64.158.146
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 117 - zhcxh
-  type: vless
-  server: 162.35.96.18
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 162.35.96.18
-- name: 🇺🇸 美国 (United States) 118 - zhcxh
-  type: vless
-  server: 188.114.97.6
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 119 - zhcxh
-  type: vmess
-  server: 216.152.152.187
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 120 - zhcxh
-  type: vmess
-  server: 216.152.152.187
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 121 - zhcxh
-  type: vless
-  server: node-production-ccd3.up.railway.app
-  port: 443
-  uuid: 264c449d-2c7c-4b82-8457-8f6766946307
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: node-production-ccd3.up.railway.app
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: node-production-ccd3.up.railway.app
-- name: 🇺🇸 美国 (United States) 122 - zhcxh
-  type: vless
-  server: 162.159.45.19
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 123 - zhcxh
-  type: vmess
-  server: 38.110.1.246
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 124 - zhcxh
-  type: vless
-  server: 108.162.198.178
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 125 - zhcxh
-  type: vless
-  server: 162.159.45.19
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 126 - zhcxh
+- name: 🇺🇸 美国 (United States) 32 - zhcxh
   type: vmess
   server: 66.163.115.23
   port: 443
@@ -1524,87 +404,7 @@ proxies:
     path: /linkvws
     headers:
       Host: aidrivercat.org
-- name: 🇺🇸 美国 (United States) 127 - zhcxh
-  type: vless
-  server: 104.18.39.218
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 128 - zhcxh
-  type: vmess
-  server: 169.197.142.22
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 129 - zhcxh
-  type: vmess
-  server: 169.197.142.22
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 130 - zhcxh
-  type: ss
-  server: 173.234.25.93
-  port: 15243
-  cipher: aes-128-gcm
-  password: 62dd75ba944947d4ca983cf1679b3797
-  udp: true
-- name: 🇺🇸 美国 (United States) 131 - zhcxh
-  type: ss
-  server: 15.204.246.107
-  port: 8888
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇺🇸 美国 (United States) 132 - zhcxh
-  type: vmess
-  server: 38.110.1.246
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 133 - zhcxh
-  type: vless
-  server: 162.159.43.187
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 134 - zhcxh
-  type: vmess
-  server: 38.110.1.246
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 135 - zhcxh
+- name: 🇺🇸 美国 (United States) 33 - zhcxh
   type: vless
   server: 104.18.46.46
   port: 2052
@@ -1617,426 +417,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 136 - zhcxh
-  type: vless
-  server: 172.64.229.170
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 137 - zhcxh
-  type: vless
-  server: 188.114.97.6
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 138 - zhcxh
-  type: vmess
-  server: 216.106.185.141
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 139 - zhcxh
-  type: vmess
-  server: 38.91.107.49
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 140 - zhcxh
-  type: vless
-  server: cf.877774.xyz
-  port: 8443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇺🇸 美国 (United States) 141 - zhcxh
-  type: vless
-  server: 162.159.45.19
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 142 - zhcxh
-  type: vless
-  server: 172.64.229.2
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 143 - zhcxh
-  type: vless
-  server: 104.18.34.14
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 144 - zhcxh
-  type: vless
-  server: 172.64.42.85
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 145 - zhcxh
-  type: ss
-  server: 37.19.198.244
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 146 - zhcxh
-  type: vmess
-  server: 38.91.107.49
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 147 - zhcxh
-  type: vless
-  server: 162.159.39.218
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 148 - zhcxh
-  type: vless
-  server: cf.877774.xyz
-  port: 8443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇺🇸 美国 (United States) 149 - zhcxh
-  type: vless
-  server: 108.162.198.178
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 150 - zhcxh
-  type: vless
-  server: cf.877774.xyz
-  port: 8443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /+
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇺🇸 美国 (United States) 151 - zhcxh
-  type: vless
-  server: 172.64.158.146
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 152 - zhcxh
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 153 - zhcxh
-  type: vless
-  server: 172.67.156.222
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3-m16.ChIAn-mAI-6.kDnS.Fr
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: 3-m16.ChIAn-Mai-6.kdNs.Fr
-- name: 🇺🇸 美国 (United States) 154 - zhcxh
-  type: vless
-  server: 172.67.206.48
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 1-M16.AyUtTHAYA2030.KdNS.fR
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: 1-M16.AyUtTHAYA2030.KdNS.fR
-- name: 🇺🇸 美国 (United States) 155 - zhcxh
-  type: vless
-  server: 172.64.229.170
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 156 - zhcxh
-  type: vmess
-  server: 169.197.143.116
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 157 - zhcxh
-  type: vless
-  server: 162.159.39.218
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 158 - zhcxh
-  type: vmess
-  server: 169.197.142.22
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 159 - zhcxh
-  type: vless
-  server: 108.162.198.178
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 160 - zhcxh
-  type: ss
-  server: 23.150.248.20
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: qB2Cv9VIlujj
-  udp: true
-- name: 🇺🇸 美国 (United States) 161 - zhcxh
-  type: vless
-  server: 162.159.0.53
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 162 - zhcxh
-  type: ss
-  server: 23.150.248.20
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: qB2Cv9VIlujj
-  udp: true
-- name: 🇺🇸 美国 (United States) 163 - zhcxh
-  type: ss
-  server: 108.181.0.177
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: G5p6ww4o67HB
-  udp: true
-- name: 🇺🇸 美国 (United States) 164 - zhcxh
-  type: vless
-  server: 104.18.46.234
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 165 - zhcxh
-  type: vless
-  server: 172.64.158.146
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 166 - zhcxh
-  type: vless
-  server: 104.18.46.234
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 167 - zhcxh
-  type: vmess
-  server: 67.220.72.237
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 168 - zhcxh
-  type: ss
-  server: 108.181.0.177
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: G5p6ww4o67HB
-  udp: true
-- name: 🇺🇸 美国 (United States) 169 - zhcxh
-  type: vless
-  server: 172.64.158.146
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 170 - zhcxh
-  type: vless
-  server: 172.64.158.146
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 171 - zhcxh
-  type: ss
-  server: 173.244.56.9
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 172 - zhcxh
+- name: 🇺🇸 美国 (United States) 34 - zhcxh
   type: vless
   server: 162.159.48.32
   port: 8880
@@ -2049,23 +430,77 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 173 - zhcxh
+- name: 🇺🇸 美国 (United States) 35 - zhcxh
   type: vmess
-  server: 216.106.183.35
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: 216.106.185.141
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ''
+- name: 🇺🇸 美国 (United States) 36 - zhcxh
+  type: vmess
+  server: 167.17.68.89
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 37 - zhcxh
+  type: vmess
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 38 - zhcxh
+  type: vmess
+  server: 67.220.72.237
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 39 - zhcxh
+  type: vmess
+  server: 67.220.72.237
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 40 - zhcxh
+  type: ss
+  server: 198.98.53.130
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: eDfN7SODQceIOmIAbtJJtK
+  udp: true
+- name: 🇺🇸 美国 (United States) 41 - zhcxh
+  type: vless
+  server: 172.64.52.6
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /linkvws
+    path: /?ed=2560security=tls+
     headers:
-      Host: ''
-- name: 🇺🇸 美国 (United States) 174 - zhcxh
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 42 - zhcxh
   type: vless
   server: 104.18.14.103
   port: 443
@@ -2079,9 +514,91 @@ proxies:
     path: /imnotarealherox
     headers:
       Host: server9.9966338.xyz
-- name: 🇺🇸 美国 (United States) 175 - zhcxh
+- name: 🇺🇸 美国 (United States) 43 - zhcxh
   type: vless
-  server: 172.64.53.55
+  server: 162.159.45.19
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 44 - zhcxh
+  type: ss
+  server: 38.180.135.156
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: YHtesZ0qvgtg
+  udp: true
+- name: 🇺🇸 美国 (United States) 45 - zhcxh
+  type: vless
+  server: 172.64.158.146
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 46 - zhcxh
+  type: vless
+  server: 172.64.158.146
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 47 - zhcxh
+  type: vless
+  server: 172.64.32.103
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 48 - zhcxh
+  type: vless
+  server: 172.64.229.2
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 49 - zhcxh
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 50 - zhcxh
+  type: vless
+  server: 172.64.42.85
   port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -2092,7 +609,230 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 176 - zhcxh
+- name: 🇺🇸 美国 (United States) 51 - zhcxh
+  type: vless
+  server: 108.162.198.178
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 52 - zhcxh
+  type: vless
+  server: 162.159.0.53
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 53 - zhcxh
+  type: ss
+  server: 15.204.247.124
+  port: 2375
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+  udp: true
+- name: 🇺🇸 美国 (United States) 54 - zhcxh
+  type: vless
+  server: 172.64.154.8
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 55 - zhcxh
+  type: vless
+  server: 104.18.46.46
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 56 - zhcxh
+  type: vmess
+  server: 67.220.72.237
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 1
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 57 - zhcxh
+  type: vless
+  server: 104.18.34.14
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 58 - zhcxh
+  type: vless
+  server: 162.159.45.19
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 59 - zhcxh
+  type: vless
+  server: 172.64.229.170
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 60 - zhcxh
+  type: vless
+  server: 162.159.0.169
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 61 - zhcxh
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 62 - zhcxh
+  type: vless
+  server: 104.18.34.14
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 63 - zhcxh
+  type: ss
+  server: 37.19.198.244
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 64 - zhcxh
+  type: vless
+  server: 162.159.0.169
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 65 - zhcxh
+  type: ss
+  server: 199.60.101.122
+  port: 11626
+  cipher: aes-128-gcm
+  password: 13b85fb6aec09565b096c3076d714cd0
+  udp: true
+- name: 🇺🇸 美国 (United States) 66 - zhcxh
+  type: vless
+  server: 172.64.52.6
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 67 - zhcxh
+  type: vless
+  server: 162.159.0.53
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 68 - zhcxh
+  type: vless
+  server: 162.159.48.32
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 69 - zhcxh
+  type: vless
+  server: 108.162.198.178
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 70 - zhcxh
   type: vless
   server: 162.159.39.218
   port: 2052
@@ -2105,10 +845,10 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 177 - zhcxh
+- name: 🇺🇸 美国 (United States) 71 - zhcxh
   type: vless
-  server: 108.162.198.178
-  port: 2095
+  server: 162.159.45.19
+  port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -2118,41 +858,10 @@ proxies:
     path: /
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 178 - zhcxh
-  type: vless
-  server: 172.66.43.95
-  port: 443
-  uuid: c47eb7ab-2c2d-44e0-80cc-bb104f89a137
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: www.terence-tunnel.org
-  network: ws
-  ws-opts:
-    path: /tunnel
-    headers:
-      Host: www.terence-tunnel.org
-- name: 🇺🇸 美国 (United States) 179 - zhcxh
-  type: vmess
-  server: 216.106.183.35
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 180 - zhcxh
-  type: ss
-  server: 67.217.57.157
-  port: 19743
-  cipher: aes-128-gcm
-  password: e5ec86c79d726d01bf0958087e0dd91f
-  udp: true
-- name: 🇺🇸 美国 (United States) 181 - zhcxh
+- name: 🇺🇸 美国 (United States) 72 - zhcxh
   type: vless
   server: 172.64.52.6
-  port: 2095
+  port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -2162,7 +871,182 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 182 - zhcxh
+- name: 🇺🇸 美国 (United States) 73 - zhcxh
+  type: vless
+  server: 162.159.24.131
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 74 - zhcxh
+  type: vless
+  server: 104.18.39.218
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 75 - zhcxh
+  type: vless
+  server: 162.159.43.187
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tlssecurity=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 76 - zhcxh
+  type: vless
+  server: 104.18.46.46
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 77 - zhcxh
+  type: vless
+  server: 108.162.198.178
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 78 - zhcxh
+  type: vless
+  server: 104.18.15.103
+  port: 443
+  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: server9.9966338.xyz
+  network: ws
+  ws-opts:
+    path: /imnotarealherox
+    headers:
+      Host: server9.9966338.xyz
+- name: 🇺🇸 美国 (United States) 79 - zhcxh
+  type: vless
+  server: 104.18.46.46
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 80 - zhcxh
+  type: vless
+  server: 172.64.158.146
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 81 - zhcxh
+  type: vmess
+  server: 216.106.183.35
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 1
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 82 - zhcxh
+  type: vless
+  server: 104.18.46.46
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 83 - zhcxh
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇺🇸 美国 (United States) 84 - zhcxh
+  type: vmess
+  server: 167.88.62.124
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 85 - zhcxh
+  type: vmess
+  server: 167.88.62.124
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 86 - zhcxh
+  type: vless
+  server: 162.159.0.169
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 87 - zhcxh
   type: vless
   server: cf.877774.xyz
   port: 8443
@@ -2176,9 +1060,35 @@ proxies:
     path: /
     headers:
       Host: edgetunnel-4uw.pages.dev
-- name: 🇺🇸 美国 (United States) 183 - zhcxh
+- name: 🇺🇸 美国 (United States) 88 - zhcxh
   type: vless
-  server: 162.159.48.32
+  server: 162.35.96.18
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 162.35.96.18
+- name: 🇺🇸 美国 (United States) 89 - zhcxh
+  type: vless
+  server: 172.64.53.55
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 90 - zhcxh
+  type: vless
+  server: 162.159.0.169
   port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -2189,10 +1099,10 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 184 - zhcxh
+- name: 🇺🇸 美国 (United States) 91 - zhcxh
   type: vless
-  server: 104.18.34.14
-  port: 8080
+  server: 172.64.53.55
+  port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -2202,40 +1112,23 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 185 - zhcxh
+- name: 🇺🇸 美国 (United States) 92 - zhcxh
   type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 9e9fd625-e4d7-4944-ae7e-4145342fa5db
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: pannn1.global.ssl.fastly.net
-- name: 🇺🇸 美国 (United States) 186 - zhcxh
-  type: vmess
-  server: vspeedfast.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: ''
-- name: 🇺🇸 美国 (United States) 187 - zhcxh
-  type: vless
-  server: 172.64.52.6
+  server: 162.159.0.169
   port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 93 - zhcxh
+  type: vless
+  server: 108.162.198.178
+  port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -2245,206 +1138,9 @@ proxies:
     path: /?ed=2560security=tls+
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 188 - zhcxh
-  type: vmess
-  server: 38.110.1.246
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 189 - zhcxh
-  type: ss
-  server: 37.19.198.243
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 190 - zhcxh
+- name: 🇺🇸 美国 (United States) 94 - zhcxh
   type: vless
-  server: 172.64.154.8
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 191 - zhcxh
-  type: vmess
-  server: 167.88.63.59
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vspeedfast.org
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: vspeedfast.org
-- name: 🇺🇸 美国 (United States) 192 - zhcxh
-  type: ss
-  server: 103.214.109.42
-  port: 11735
-  cipher: aes-128-gcm
-  password: 042fcab1108c2f8c5c08efbed4a16cfa
-  udp: true
-- name: 🇺🇸 美国 (United States) 193 - zhcxh
-  type: vmess
-  server: 172.111.38.100
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 194 - zhcxh
-  type: ss
-  server: 15.204.246.132
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-  udp: true
-- name: 🇺🇸 美国 (United States) 195 - zhcxh
-  type: vless
-  server: 104.18.46.46
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 196 - zhcxh
-  type: vless
-  server: 108.162.198.178
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 197 - zhcxh
-  type: vless
-  server: 172.64.53.55
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 198 - zhcxh
-  type: vless
-  server: 172.64.53.55
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 199 - zhcxh
-  type: vless
-  server: cf.877774.xyz
-  port: 2053
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇺🇸 美国 (United States) 200 - zhcxh
-  type: vmess
-  server: 67.220.85.46
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 201 - zhcxh
-  type: vless
-  server: 162.159.48.32
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 202 - zhcxh
-  type: vless
-  server: 172.64.229.170
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 203 - zhcxh
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ne4d3.thir.mn8.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 204 - zhcxh
-  type: vless
-  server: 198.251.78.29
-  port: 2053
-  uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇺🇸 美国 (United States) 205 - zhcxh
-  type: vless
-  server: 162.159.48.32
+  server: 162.159.0.169
   port: 8880
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -2455,36 +1151,23 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 206 - zhcxh
+- name: 🇺🇸 美国 (United States) 95 - zhcxh
   type: vless
-  server: 172.64.32.108
-  port: 8080
+  server: 188.114.97.6
+  port: 8880
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls+
+    path: /?ed=2560
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 207 - zhcxh
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 96 - zhcxh
   type: vless
-  server: 172.64.32.103
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 208 - zhcxh
-  type: vless
-  server: 172.64.42.85
-  port: 8080
+  server: 172.64.229.170
+  port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -2494,23 +1177,113 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 209 - zhcxh
-  type: vmess
-  server: khasav.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
+- name: 🇺🇸 美国 (United States) 97 - zhcxh
+  type: vless
+  server: cf.877774.xyz
+  port: 8443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: edgetunnel-4uw.pages.dev
   network: ws
   ws-opts:
-    path: /linkvws
+    path: /
     headers:
-      Host: ''
-- name: 🇺🇸 美国 (United States) 210 - zhcxh
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇺🇸 美国 (United States) 98 - zhcxh
+  type: vless
+  server: cf.877774.xyz
+  port: 8443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇺🇸 美国 (United States) 99 - zhcxh
+  type: vless
+  server: 172.64.53.55
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 100 - zhcxh
+  type: vmess
+  server: 172.111.38.100
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 101 - zhcxh
+  type: ss
+  server: 216.105.168.204
+  port: 18230
+  cipher: aes-128-gcm
+  password: b21512a937197c0497300b703dc03e77
+  udp: true
+- name: 🇺🇸 美国 (United States) 102 - zhcxh
+  type: vless
+  server: 104.18.34.14
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 103 - zhcxh
+  type: vless
+  server: 38.246.229.58
+  port: 47642
+  uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 9mg1QdPctekP9woKygHzBCxb8Hw2QTICXROQiiJB6Ag
+  servername: sega.com
+  client-fingerprint: firefox
+- name: 🇺🇸 美国 (United States) 104 - zhcxh
+  type: vless
+  server: 104.18.34.14
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 105 - zhcxh
+  type: vmess
+  server: 216.152.152.187
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 106 - zhcxh
   type: vmess
   server: khasav.org
   port: 443
@@ -2526,86 +1299,9 @@ proxies:
     path: /linkvws
     headers:
       Host: khasav.org
-- name: 🇺🇸 美国 (United States) 211 - zhcxh
+- name: 🇺🇸 美国 (United States) 107 - zhcxh
   type: vless
-  server: 162.159.0.169
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 212 - zhcxh
-  type: vless
-  server: 144.31.243.120
-  port: 8443
-  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: yf.962456.xyz
-  network: ws
-  ws-opts:
-    path: /proxyip=kr.william.us.ci
-    headers:
-      Host: yf.962456.xyz
-- name: 🇺🇸 美国 (United States) 213 - zhcxh
-  type: vmess
-  server: 216.152.152.187
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 214 - zhcxh
-  type: ss
-  server: 37.19.198.160
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 215 - zhcxh
-  type: vless
-  server: 108.162.198.178
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 216 - zhcxh
-  type: vless
-  server: 162.159.24.131
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 217 - zhcxh
-  type: ss
-  server: 15.204.247.206
-  port: 4444
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: 🇺🇸 美国 (United States) 218 - zhcxh
-  type: vless
-  server: 104.18.39.218
+  server: 162.159.45.19
   port: 2095
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -2616,9 +1312,9 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 219 - zhcxh
+- name: 🇺🇸 美国 (United States) 108 - zhcxh
   type: vless
-  server: 172.64.32.108
+  server: 104.18.46.234
   port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -2629,42 +1325,9 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 220 - zhcxh
+- name: 🇺🇸 美国 (United States) 109 - zhcxh
   type: vless
-  server: 162.159.38.127
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 221 - zhcxh
-  type: vmess
-  server: 167.88.62.124
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 222 - zhcxh
-  type: vmess
-  server: 167.88.62.124
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 223 - zhcxh
-  type: vless
-  server: 104.18.39.218
+  server: 172.64.154.8
   port: 8080
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -2675,19 +1338,9 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 224 - zhcxh
-  type: vmess
-  server: 38.91.107.49
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 225 - zhcxh
+- name: 🇺🇸 美国 (United States) 110 - zhcxh
   type: vless
-  server: 162.159.39.218
+  server: 104.18.39.218
   port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -2698,44 +1351,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 226 - zhcxh
-  type: vless
-  server: 172.64.229.2
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 227 - zhcxh
-  type: vless
-  server: node-production-ccd3.up.railway.app
-  port: 443
-  uuid: 264c449d-2c7c-4b82-8457-8f6766946307
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: node-production-ccd3.up.railway.app
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: node-production-ccd3.up.railway.app
-- name: 🇺🇸 美国 (United States) 228 - zhcxh
-  type: vmess
-  server: 84.17.41.2
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 229 - zhcxh
+- name: 🇺🇸 美国 (United States) 111 - zhcxh
   type: vless
   server: 103.31.4.10
   port: 443
@@ -2749,252 +1365,28 @@ proxies:
     path: /api/v2/b8ee4ba356df307c/stream
     headers:
       Host: f871a986.69lover.site
-- name: 🇺🇸 美国 (United States) 230 - zhcxh
-  type: vmess
-  server: 167.88.63.59
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
+- name: 🇺🇸 美国 (United States) 112 - zhcxh
+  type: ss
+  server: 31.57.185.82
+  port: 41770
+  cipher: 2022-blake3-aes-256-gcm
+  password: upFH0BmL9pV55mch4LvbPLe+Mf7vgG0YHGaTOT9gMG0=
   udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 231 - zhcxh
+- name: 🇺🇸 美国 (United States) 113 - zhcxh
   type: vless
-  server: 104.18.39.218
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 232 - zhcxh
-  type: vless
-  server: node-production-ccd3.up.railway.app
-  port: 443
-  uuid: 264c449d-2c7c-4b82-8457-8f6766946307
+  server: cf.877774.xyz
+  port: 8443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: node-production-ccd3.up.railway.app
+  servername: edgetunnel-4uw.pages.dev
   network: ws
   ws-opts:
-    path: /ws
+    path: /+
     headers:
-      Host: node-production-ccd3.up.railway.app
-- name: 🇺🇸 美国 (United States) 233 - zhcxh
-  type: vmess
-  server: 167.88.63.59
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 234 - zhcxh
-  type: ss
-  server: 108.181.57.93
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: RSo52SbxW40r
-  udp: true
-- name: 🇺🇸 美国 (United States) 235 - zhcxh
-  type: vless
-  server: 162.159.48.32
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 236 - zhcxh
-  type: vless
-  server: 172.64.229.170
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 237 - zhcxh
-  type: ss
-  server: 192.3.247.109
-  port: 43579
-  cipher: aes-256-gcm
-  password: 8c009bb6-08b3-4526-a86b-5af7ddfc567a-4c757b72-6eec-4faf-8c2e-09fd1c7fa936
-  udp: true
-- name: 🇺🇸 美国 (United States) 238 - zhcxh
-  type: vmess
-  server: 169.197.143.116
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 239 - zhcxh
-  type: vless
-  server: 188.114.97.6
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 240 - zhcxh
-  type: vless
-  server: 172.64.154.8
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 241 - zhcxh
-  type: vless
-  server: 108.162.198.178
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 242 - zhcxh
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 243 - zhcxh
-  type: vmess
-  server: 167.17.68.89
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 244 - zhcxh
-  type: vmess
-  server: 167.17.68.89
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 245 - zhcxh
-  type: vless
-  server: 172.64.229.170
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 246 - zhcxh
-  type: vmess
-  server: 38.91.107.49
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 247 - zhcxh
-  type: vless
-  server: 162.159.43.187
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 248 - zhcxh
-  type: vless
-  server: 172.64.154.8
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 249 - zhcxh
-  type: vless
-  server: 172.64.52.6
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 250 - zhcxh
-  type: vless
-  server: 104.18.26.90
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws#TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🇺🇸 美国 (United States) 251 - zhcxh
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇺🇸 美国 (United States) 114 - zhcxh
   type: vless
   server: 198.251.78.29
   port: 2053
@@ -3005,11 +1397,11 @@ proxies:
   reality-opts:
     public-key: Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw
   servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇺🇸 美国 (United States) 252 - zhcxh
+  client-fingerprint: chrome
+- name: 🇺🇸 美国 (United States) 115 - zhcxh
   type: vless
-  server: 104.18.34.14
-  port: 2095
+  server: 162.159.38.127
+  port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -3019,38 +1411,45 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 253 - zhcxh
+- name: 🇺🇸 美国 (United States) 116 - zhcxh
   type: vmess
-  server: vspeedfast.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: 167.17.68.89
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: vspeedfast.org
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: vspeedfast.org
-- name: 🇺🇸 美国 (United States) 254 - zhcxh
+- name: 🇺🇸 美国 (United States) 117 - zhcxh
   type: vless
-  server: 104.18.39.218
-  port: 2086
+  server: 172.64.229.170
+  port: 2082
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 255 - zhcxh
+- name: 🇺🇸 美国 (United States) 118 - zhcxh
   type: vless
-  server: 162.159.0.169
+  server: 172.64.154.8
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 119 - zhcxh
+  type: vless
+  server: 162.159.39.218
   port: 8080
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -3061,7 +1460,175 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 256 - zhcxh
+- name: 🇺🇸 美国 (United States) 120 - zhcxh
+  type: vless
+  server: 162.159.48.32
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 121 - zhcxh
+  type: vless
+  server: 162.159.0.53
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 122 - zhcxh
+  type: vless
+  server: 172.64.42.85
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 123 - zhcxh
+  type: vless
+  server: 198.251.78.29
+  port: 2053
+  uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇺🇸 美国 (United States) 124 - zhcxh
+  type: vless
+  server: cf.877774.xyz
+  port: 8443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇺🇸 美国 (United States) 125 - zhcxh
+  type: vless
+  server: 172.64.32.103
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 126 - zhcxh
+  type: vmess
+  server: 216.106.185.141
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 127 - zhcxh
+  type: vless
+  server: 162.159.39.218
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 128 - zhcxh
+  type: vless
+  server: cf.877774.xyz
+  port: 8443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇺🇸 美国 (United States) 129 - zhcxh
+  type: vless
+  server: 104.18.34.14
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tlssecurity=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 130 - zhcxh
+  type: vless
+  server: 162.159.24.131
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 131 - zhcxh
+  type: ss
+  server: 108.181.0.177
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: G5p6ww4o67HB
+  udp: true
+- name: 🇺🇸 美国 (United States) 132 - zhcxh
+  type: vless
+  server: 172.64.42.85
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 133 - zhcxh
+  type: ss
+  server: 108.181.0.177
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: G5p6ww4o67HB
+  udp: true
+- name: 🇺🇸 美国 (United States) 134 - zhcxh
   type: vless
   server: cf.877774.xyz
   port: 2053
@@ -3075,32 +1642,9 @@ proxies:
     path: /
     headers:
       Host: edgetunnel-4uw.pages.dev
-- name: 🇺🇸 美国 (United States) 257 - zhcxh
+- name: 🇺🇸 美国 (United States) 135 - zhcxh
   type: vless
-  server: 172.64.229.2
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 258 - zhcxh
-  type: vmess
-  server: 216.106.183.35
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 1
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 259 - zhcxh
-  type: vless
-  server: 162.159.24.131
+  server: 172.64.32.108
   port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -3111,7 +1655,20 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 260 - zhcxh
+- name: 🇺🇸 美国 (United States) 136 - zhcxh
+  type: vless
+  server: 162.159.0.169
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tlssecurity=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 137 - zhcxh
   type: vless
   server: 104.18.46.46
   port: 8080
@@ -3124,75 +1681,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 261 - zhcxh
-  type: vless
-  server: 198.251.78.29
-  port: 2053
-  uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇺🇸 美国 (United States) 262 - zhcxh
-  type: vmess
-  server: 167.88.62.124
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 263 - zhcxh
-  type: vless
-  server: 172.64.229.170
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 264 - zhcxh
-  type: vless
-  server: 162.159.45.19
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 265 - zhcxh
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ?ed=2560
-    headers:
-      Host: a0hbm.jvb1.28f.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 266 - zhcxh
-  type: ss
-  server: 15.204.246.107
-  port: 8888
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇺🇸 美国 (United States) 267 - zhcxh
+- name: 🇺🇸 美国 (United States) 138 - zhcxh
   type: vless
   server: 172.64.42.85
   port: 2095
@@ -3205,9 +1694,95 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 268 - zhcxh
+- name: 🇺🇸 美国 (United States) 139 - zhcxh
+  type: vmess
+  server: 167.17.68.89
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 140 - zhcxh
+  type: ss
+  server: 15.204.246.132
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+  udp: true
+- name: 🇺🇸 美国 (United States) 141 - zhcxh
+  type: vmess
+  server: 216.106.183.35
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 142 - zhcxh
   type: vless
-  server: 172.64.154.8
+  server: 172.64.53.55
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 143 - zhcxh
+  type: vmess
+  server: 38.91.107.49
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 144 - zhcxh
+  type: vmess
+  server: 38.91.107.49
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 145 - zhcxh
+  type: vless
+  server: 188.114.97.6
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 146 - zhcxh
+  type: vless
+  server: 172.64.229.170
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 147 - zhcxh
+  type: vless
+  server: 108.162.198.178
   port: 2082
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -3218,10 +1793,82 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 269 - zhcxh
+- name: 🇺🇸 美国 (United States) 148 - zhcxh
   type: vless
-  server: 104.18.47.113
+  server: 162.159.48.32
   port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 149 - zhcxh
+  type: vless
+  server: 104.18.34.14
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 150 - zhcxh
+  type: vmess
+  server: 67.220.72.237
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 151 - zhcxh
+  type: vless
+  server: 162.159.0.53
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 152 - zhcxh
+  type: vmess
+  server: 216.106.183.35
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 153 - zhcxh
+  type: vless
+  server: 108.162.198.178
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 154 - zhcxh
+  type: vless
+  server: 104.18.46.234
+  port: 2082
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -3231,7 +1878,278 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 270 - zhcxh
+- name: 🇺🇸 美国 (United States) 155 - zhcxh
+  type: vless
+  server: 198.251.78.29
+  port: 2053
+  uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇺🇸 美国 (United States) 156 - zhcxh
+  type: ss
+  server: 67.217.57.157
+  port: 19743
+  cipher: aes-128-gcm
+  password: e5ec86c79d726d01bf0958087e0dd91f
+  udp: true
+- name: 🇺🇸 美国 (United States) 157 - zhcxh
+  type: vless
+  server: 162.159.39.218
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 158 - zhcxh
+  type: vless
+  server: 172.64.42.85
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 159 - zhcxh
+  type: vless
+  server: 104.18.46.46
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tlssecurity=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 160 - zhcxh
+  type: vless
+  server: 162.159.38.127
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 161 - zhcxh
+  type: vmess
+  server: 172.111.38.100
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 162 - zhcxh
+  type: vmess
+  server: 216.106.183.35
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: ''
+- name: 🇺🇸 美国 (United States) 163 - zhcxh
+  type: vless
+  server: 172.64.229.2
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 164 - zhcxh
+  type: vless
+  server: 172.64.32.108
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 165 - zhcxh
+  type: vless
+  server: 162.159.24.131
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 166 - zhcxh
+  type: vless
+  server: 104.18.39.218
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 167 - zhcxh
+  type: vless
+  server: 172.64.158.146
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 168 - zhcxh
+  type: vmess
+  server: 67.220.72.237
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 169 - zhcxh
+  type: vless
+  server: 162.159.45.19
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 170 - zhcxh
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 171 - zhcxh
+  type: vless
+  server: 172.64.158.146
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 172 - zhcxh
+  type: vless
+  server: 162.159.39.218
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 173 - zhcxh
+  type: vmess
+  server: 172.111.38.100
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 174 - zhcxh
+  type: vless
+  server: 104.21.13.178
+  port: 443
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 9-m16.ChiAN-Mai-6.KdNS.Fr
+  network: ws
+  ws-opts:
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+    headers:
+      Host: 9-m16.ChIaN-mAI-6.kDnS.fR
+- name: 🇺🇸 美国 (United States) 175 - zhcxh
+  type: vless
+  server: 104.18.47.113
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 176 - zhcxh
+  type: vless
+  server: 162.159.43.187
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 177 - zhcxh
   type: vless
   server: 162.159.38.127
   port: 8880
@@ -3244,10 +2162,10 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 271 - zhcxh
+- name: 🇺🇸 美国 (United States) 178 - zhcxh
   type: vless
-  server: 172.64.53.55
-  port: 2095
+  server: 172.64.32.103
+  port: 8880
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -3257,7 +2175,315 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 272 - zhcxh
+- name: 🇺🇸 美国 (United States) 179 - zhcxh
+  type: ss
+  server: 37.19.198.160
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 180 - zhcxh
+  type: vless
+  server: 162.159.48.32
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 181 - zhcxh
+  type: ss
+  server: 15.204.233.41
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 🇺🇸 美国 (United States) 182 - zhcxh
+  type: vmess
+  server: 167.88.63.59
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 183 - zhcxh
+  type: vmess
+  server: 167.88.63.59
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: vspeedfast.org
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: vspeedfast.org
+- name: 🇺🇸 美国 (United States) 184 - zhcxh
+  type: vless
+  server: victoryprovpn-production-ea69.up.railway.app
+  port: 443
+  uuid: fa30976d-06dc-343c-9eef-6ed32ac1f73b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: victoryprovpn-production-ea69.up.railway.app
+  network: ws
+  ws-opts:
+    path: /ws/fa30976d-06dc-343c-9eef-6ed32ac1f73b
+    headers:
+      Host: victoryprovpn-production-ea69.up.railway.app
+- name: 🇺🇸 美国 (United States) 185 - zhcxh
+  type: vless
+  server: 172.64.154.8
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 186 - zhcxh
+  type: vless
+  server: 162.159.38.127
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 187 - zhcxh
+  type: vless
+  server: 104.18.47.113
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 188 - zhcxh
+  type: vless
+  server: 104.18.34.14
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 189 - zhcxh
+  type: vless
+  server: 162.159.48.32
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 190 - zhcxh
+  type: vless
+  server: 172.64.229.2
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 191 - zhcxh
+  type: vless
+  server: 172.64.154.8
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 192 - zhcxh
+  type: vless
+  server: 162.159.24.131
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 193 - zhcxh
+  type: ss
+  server: 37.19.198.236
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 194 - zhcxh
+  type: ss
+  server: 15.204.247.206
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 🇺🇸 美国 (United States) 195 - zhcxh
+  type: vless
+  server: 162.159.24.131
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 196 - zhcxh
+  type: vmess
+  server: 167.88.63.59
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 197 - zhcxh
+  type: vmess
+  server: vspeedfast.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: ''
+- name: 🇺🇸 美国 (United States) 198 - zhcxh
+  type: vmess
+  server: vspeedfast.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: ''
+- name: 🇺🇸 美国 (United States) 199 - zhcxh
+  type: ss
+  server: 156.146.38.167
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 200 - zhcxh
+  type: vless
+  server: cf.877774.xyz
+  port: 2053
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇺🇸 美国 (United States) 201 - zhcxh
+  type: vless
+  server: 162.159.43.187
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 202 - zhcxh
+  type: vless
+  server: cf.877774.xyz
+  port: 8443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇺🇸 美国 (United States) 203 - zhcxh
+  type: vless
+  server: 172.64.53.55
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 204 - zhcxh
+  type: ss
+  server: 23.150.248.20
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: qB2Cv9VIlujj
+  udp: true
+- name: 🇺🇸 美国 (United States) 205 - zhcxh
   type: vmess
   server: 169.197.143.116
   port: 22324
@@ -3267,7 +2493,14 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 273 - zhcxh
+- name: 🇺🇸 美国 (United States) 206 - zhcxh
+  type: ss
+  server: 173.234.25.93
+  port: 15243
+  cipher: aes-128-gcm
+  password: 62dd75ba944947d4ca983cf1679b3797
+  udp: true
+- name: 🇺🇸 美国 (United States) 207 - zhcxh
   type: vless
   server: 188.114.97.6
   port: 443
@@ -3281,25 +2514,32 @@ proxies:
     path: /ws
     headers:
       Host: a.cwvps.eu.org
-- name: 🇺🇸 美国 (United States) 274 - zhcxh
+- name: 🇺🇸 美国 (United States) 208 - zhcxh
+  type: vless
+  server: 104.18.34.14
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 209 - zhcxh
   type: vmess
-  server: 66.163.115.23
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: ''
-- name: 🇺🇸 美国 (United States) 275 - zhcxh
+- name: 🇺🇸 美国 (United States) 210 - zhcxh
   type: vless
-  server: 172.64.154.8
+  server: 172.64.158.146
   port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -3310,26 +2550,24 @@ proxies:
     path: /
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 276 - zhcxh
-  type: vmess
-  server: 167.88.63.59
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
+- name: 🇺🇸 美国 (United States) 211 - zhcxh
+  type: vless
+  server: cf.877774.xyz
+  port: 8443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: edgetunnel-4uw.pages.dev
   network: ws
   ws-opts:
-    path: /linkvws
+    path: /fp=chrome
     headers:
-      Host: ''
-- name: 🇺🇸 美国 (United States) 277 - zhcxh
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇺🇸 美国 (United States) 212 - zhcxh
   type: vless
   server: 104.18.34.14
-  port: 8880
+  port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -3339,55 +2577,46 @@ proxies:
     path: /?ed=2560security=tls+
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 278 - zhcxh
-  type: vless
-  server: 162.159.24.131
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- name: 🇺🇸 美国 (United States) 213 - zhcxh
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 279 - zhcxh
-  type: ss
-  server: 156.146.38.169
+- name: 🇺🇸 美国 (United States) 214 - zhcxh
+  type: vless
+  server: 162.159.198.1
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
   udp: true
-- name: 🇺🇸 美国 (United States) 280 - zhcxh
-  type: vless
-  server: 104.18.34.14
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 281 - zhcxh
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇺🇸 美国 (United States) 215 - zhcxh
   type: vless
-  server: 172.64.158.146
-  port: 2086
+  server: 104.18.46.234
+  port: 8080
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /?ed=2560security=tls+
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 282 - zhcxh
+- name: 🇺🇸 美国 (United States) 216 - zhcxh
   type: vless
-  server: 172.64.52.6
+  server: 162.159.24.131
   port: 2082
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -3398,7 +2627,233 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 283 - zhcxh
+- name: 🇺🇸 美国 (United States) 217 - zhcxh
+  type: vless
+  server: 104.18.47.113
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 218 - zhcxh
+  type: vless
+  server: 172.64.32.103
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 219 - zhcxh
+  type: vless
+  server: 172.64.229.170
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 220 - zhcxh
+  type: vless
+  server: 172.64.42.85
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 221 - zhcxh
+  type: vless
+  server: 104.17.150.17
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇺🇸 美国 (United States) 222 - zhcxh
+  type: vless
+  server: 108.162.198.178
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 223 - zhcxh
+  type: vless
+  server: 108.162.198.178
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 224 - zhcxh
+  type: vless
+  server: 172.64.229.170
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 225 - zhcxh
+  type: vless
+  server: 162.159.43.187
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 226 - zhcxh
+  type: vless
+  server: 172.64.229.170
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 227 - zhcxh
+  type: ss
+  server: 156.146.38.170
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 228 - zhcxh
+  type: vless
+  server: 172.64.229.170
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 229 - zhcxh
+  type: vless
+  server: 172.64.53.55
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 230 - zhcxh
+  type: vless
+  server: 104.18.34.14
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 231 - zhcxh
+  type: vmess
+  server: 169.197.142.22
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 232 - zhcxh
+  type: vless
+  server: 198.251.78.29
+  port: 2053
+  uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇺🇸 美国 (United States) 233 - zhcxh
+  type: vless
+  server: 108.162.198.178
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 234 - zhcxh
+  type: vless
+  server: 38.107.236.166
+  port: 8443
+  uuid: 48572af1-d091-457b-a86e-4a457e99927f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 3h-unitedstates3.09vpn.com
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: 3h-unitedstates3.09vpn.com
+- name: 🇺🇸 美国 (United States) 235 - zhcxh
   type: vless
   server: 162.35.96.39
   port: 8081
@@ -3411,9 +2866,133 @@ proxies:
     path: /vless-test
     headers:
       Host: 162.35.96.39
-- name: 🇺🇸 美国 (United States) 284 - zhcxh
+- name: 🇺🇸 美国 (United States) 236 - zhcxh
+  type: ss
+  server: 192.3.247.109
+  port: 43579
+  cipher: aes-256-gcm
+  password: 8c009bb6-08b3-4526-a86b-5af7ddfc567a-4c757b72-6eec-4faf-8c2e-09fd1c7fa936
+  udp: true
+- name: 🇺🇸 美国 (United States) 237 - zhcxh
   type: vless
-  server: 162.159.0.169
+  server: 172.64.154.8
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 238 - zhcxh
+  type: vless
+  server: 172.64.42.85
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 239 - zhcxh
+  type: vmess
+  server: 67.220.72.237
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 1
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 240 - zhcxh
+  type: vmess
+  server: 172.67.161.144
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray1.dozapp.xyz
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: 🇺🇸 美国 (United States) 241 - zhcxh
+  type: vless
+  server: 162.159.24.131
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 242 - zhcxh
+  type: vless
+  server: 172.64.229.170
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 243 - zhcxh
+  type: vless
+  server: 104.18.39.218
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tlssecurity=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 244 - zhcxh
+  type: vless
+  server: 104.18.46.46
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 245 - zhcxh
+  type: vless
+  server: 172.64.154.8
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 246 - zhcxh
+  type: vless
+  server: 172.64.158.146
   port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -3422,6 +3001,473 @@ proxies:
   network: ws
   ws-opts:
     path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 247 - zhcxh
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇺🇸 美国 (United States) 248 - zhcxh
+  type: vless
+  server: 104.18.47.113
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 249 - zhcxh
+  type: vless
+  server: 162.159.48.32
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 250 - zhcxh
+  type: vless
+  server: 162.159.48.32
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 251 - zhcxh
+  type: vless
+  server: 172.64.158.146
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 252 - zhcxh
+  type: ss
+  server: 66.23.202.54
+  port: 13627
+  cipher: aes-128-gcm
+  password: 50ce2ac177d8d8cdad6b4a68739e2ea0
+  udp: true
+- name: 🇺🇸 美国 (United States) 253 - zhcxh
+  type: vless
+  server: 162.159.39.218
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 254 - zhcxh
+  type: vmess
+  server: 169.197.143.116
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 255 - zhcxh
+  type: vmess
+  server: 167.88.63.59
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 256 - zhcxh
+  type: vless
+  server: 172.64.53.55
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 257 - zhcxh
+  type: vless
+  server: 162.159.39.218
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 258 - zhcxh
+  type: vmess
+  server: aidrivercat.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: aidrivercat.org
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: aidrivercat.org
+- name: 🇺🇸 美国 (United States) 259 - zhcxh
+  type: vless
+  server: 172.64.32.108
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 260 - zhcxh
+  type: vless
+  server: 172.64.229.2
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 261 - zhcxh
+  type: vless
+  server: 162.159.0.53
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 262 - zhcxh
+  type: vless
+  server: 172.64.42.85
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 263 - zhcxh
+  type: vless
+  server: 198.251.78.29
+  port: 2053
+  uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw
+  servername: www.cloudflare.com
+  client-fingerprint: edge
+- name: 🇺🇸 美国 (United States) 264 - zhcxh
+  type: vless
+  server: 108.162.198.178
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 265 - zhcxh
+  type: vmess
+  server: aksai.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: aksai.org
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: aksai.org
+- name: 🇺🇸 美国 (United States) 266 - zhcxh
+  type: vmess
+  server: 67.220.72.237
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 267 - zhcxh
+  type: vless
+  server: 104.18.34.14
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 268 - zhcxh
+  type: vless
+  server: 162.159.38.127
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 269 - zhcxh
+  type: ss
+  server: 156.146.38.169
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 270 - zhcxh
+  type: vmess
+  server: 169.197.143.116
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 271 - zhcxh
+  type: vless
+  server: 172.64.52.6
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 272 - zhcxh
+  type: vless
+  server: 172.64.32.103
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 273 - zhcxh
+  type: vless
+  server: 162.159.39.218
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 274 - zhcxh
+  type: vless
+  server: 162.35.96.35
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 162.35.96.35
+- name: 🇺🇸 美国 (United States) 275 - zhcxh
+  type: vless
+  server: 162.159.0.53
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 276 - zhcxh
+  type: vmess
+  server: 216.106.185.141
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 277 - zhcxh
+  type: vmess
+  server: 216.106.185.141
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 278 - zhcxh
+  type: vmess
+  server: 169.197.142.22
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 279 - zhcxh
+  type: vless
+  server: 104.18.46.46
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 280 - zhcxh
+  type: vless
+  server: 172.64.32.108
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 281 - zhcxh
+  type: vless
+  server: 172.64.42.85
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 282 - zhcxh
+  type: vless
+  server: 162.159.38.127
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 283 - zhcxh
+  type: vless
+  server: 162.159.0.53
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 284 - zhcxh
+  type: vless
+  server: 162.159.38.127
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tlssecurity=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇺🇸 美国 (United States) 285 - zhcxh
@@ -3436,21 +3482,21 @@ proxies:
   skip-cert-verify: true
 - name: 🇺🇸 美国 (United States) 286 - zhcxh
   type: vless
-  server: 162.159.0.53
-  port: 2052
+  server: 188.114.97.6
+  port: 2082
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /?ed=2560
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
 - name: 🇺🇸 美国 (United States) 287 - zhcxh
   type: vless
-  server: 104.18.46.234
-  port: 80
+  server: 108.162.198.178
+  port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -3461,33 +3507,21 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇺🇸 美国 (United States) 288 - zhcxh
-  type: vmess
-  server: 66.163.115.23
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 162.35.96.39
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: aidrivercat.org
   network: ws
   ws-opts:
-    path: /linkvws
+    path: /vless-test
     headers:
-      Host: aidrivercat.org
+      Host: 162.35.96.39
 - name: 🇺🇸 美国 (United States) 289 - zhcxh
-  type: vless
-  server: us.netease.uz
-  port: 8444
-  uuid: fd3b5215-287b-4f16-84d9-6b5854dea110
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: us.netease.uz
-- name: 🇺🇸 美国 (United States) 290 - zhcxh
   type: vmess
-  server: 169.197.142.22
+  server: 38.110.1.246
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -3495,9 +3529,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 291 - zhcxh
+- name: 🇺🇸 美国 (United States) 290 - zhcxh
   type: vless
-  server: 108.162.198.178
+  server: 162.159.0.169
   port: 8080
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -3505,22 +3539,38 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls+
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 292 - zhcxh
-  type: vmess
-  server: 167.17.68.89
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
+- name: 🇺🇸 美国 (United States) 291 - zhcxh
+  type: vless
+  server: 172.64.32.103
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 292 - zhcxh
+  type: vless
+  server: 172.64.229.2
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇺🇸 美国 (United States) 293 - zhcxh
   type: vless
-  server: 162.159.43.187
+  server: 162.159.0.169
   port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -3532,9 +3582,389 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇺🇸 美国 (United States) 294 - zhcxh
+  type: vmess
+  server: 167.88.63.59
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: ''
+- name: 🇺🇸 美国 (United States) 295 - zhcxh
+  type: vless
+  server: 108.162.198.178
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 296 - zhcxh
+  type: vless
+  server: 104.18.46.46
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 297 - zhcxh
+  type: vless
+  server: 104.18.34.14
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 298 - zhcxh
+  type: vless
+  server: 104.18.47.113
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 299 - zhcxh
+  type: vless
+  server: 104.18.34.14
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 300 - zhcxh
+  type: vless
+  server: 172.64.229.2
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 301 - zhcxh
+  type: vless
+  server: cf.877774.xyz
+  port: 8443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇺🇸 美国 (United States) 302 - zhcxh
   type: vless
   server: 172.64.52.6
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 303 - zhcxh
+  type: vless
+  server: 162.159.0.169
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 304 - zhcxh
+  type: vless
+  server: cf.877774.xyz
+  port: 8443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇺🇸 美国 (United States) 305 - zhcxh
+  type: vless
+  server: 172.64.32.103
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 306 - zhcxh
+  type: vless
+  server: 172.64.229.2
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 307 - zhcxh
+  type: vmess
+  server: 169.197.142.22
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 308 - zhcxh
+  type: vless
+  server: 108.162.198.178
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 309 - zhcxh
+  type: vmess
+  server: 38.91.107.49
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 310 - zhcxh
+  type: vmess
+  server: 169.197.143.116
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 311 - zhcxh
+  type: vless
+  server: 162.159.48.32
   port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 312 - zhcxh
+  type: vless
+  server: 108.162.198.178
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 313 - zhcxh
+  type: vless
+  server: 172.64.52.6
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 314 - zhcxh
+  type: vless
+  server: 172.64.42.85
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 315 - zhcxh
+  type: ss
+  server: 103.214.109.42
+  port: 11735
+  cipher: aes-128-gcm
+  password: 042fcab1108c2f8c5c08efbed4a16cfa
+  udp: true
+- name: 🇺🇸 美国 (United States) 316 - zhcxh
+  type: vless
+  server: 188.114.97.6
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 317 - zhcxh
+  type: vless
+  server: 162.159.0.169
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 318 - zhcxh
+  type: vless
+  server: 162.159.38.127
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 319 - zhcxh
+  type: vless
+  server: 108.162.198.178
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tlssecurity=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 320 - zhcxh
+  type: vless
+  server: 104.18.39.218
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 321 - zhcxh
+  type: vless
+  server: 104.18.46.234
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 322 - zhcxh
+  type: vless
+  server: 172.64.52.6
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 323 - zhcxh
+  type: vless
+  server: 172.64.52.6
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 324 - zhcxh
+  type: vless
+  server: 172.64.158.146
+  port: 80
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -3843,6 +4273,36 @@ proxy-groups:
   - 🇺🇸 美国 (United States) 292 - zhcxh
   - 🇺🇸 美国 (United States) 293 - zhcxh
   - 🇺🇸 美国 (United States) 294 - zhcxh
+  - 🇺🇸 美国 (United States) 295 - zhcxh
+  - 🇺🇸 美国 (United States) 296 - zhcxh
+  - 🇺🇸 美国 (United States) 297 - zhcxh
+  - 🇺🇸 美国 (United States) 298 - zhcxh
+  - 🇺🇸 美国 (United States) 299 - zhcxh
+  - 🇺🇸 美国 (United States) 300 - zhcxh
+  - 🇺🇸 美国 (United States) 301 - zhcxh
+  - 🇺🇸 美国 (United States) 302 - zhcxh
+  - 🇺🇸 美国 (United States) 303 - zhcxh
+  - 🇺🇸 美国 (United States) 304 - zhcxh
+  - 🇺🇸 美国 (United States) 305 - zhcxh
+  - 🇺🇸 美国 (United States) 306 - zhcxh
+  - 🇺🇸 美国 (United States) 307 - zhcxh
+  - 🇺🇸 美国 (United States) 308 - zhcxh
+  - 🇺🇸 美国 (United States) 309 - zhcxh
+  - 🇺🇸 美国 (United States) 310 - zhcxh
+  - 🇺🇸 美国 (United States) 311 - zhcxh
+  - 🇺🇸 美国 (United States) 312 - zhcxh
+  - 🇺🇸 美国 (United States) 313 - zhcxh
+  - 🇺🇸 美国 (United States) 314 - zhcxh
+  - 🇺🇸 美国 (United States) 315 - zhcxh
+  - 🇺🇸 美国 (United States) 316 - zhcxh
+  - 🇺🇸 美国 (United States) 317 - zhcxh
+  - 🇺🇸 美国 (United States) 318 - zhcxh
+  - 🇺🇸 美国 (United States) 319 - zhcxh
+  - 🇺🇸 美国 (United States) 320 - zhcxh
+  - 🇺🇸 美国 (United States) 321 - zhcxh
+  - 🇺🇸 美国 (United States) 322 - zhcxh
+  - 🇺🇸 美国 (United States) 323 - zhcxh
+  - 🇺🇸 美国 (United States) 324 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -4142,5 +4602,35 @@ proxy-groups:
   - 🇺🇸 美国 (United States) 292 - zhcxh
   - 🇺🇸 美国 (United States) 293 - zhcxh
   - 🇺🇸 美国 (United States) 294 - zhcxh
+  - 🇺🇸 美国 (United States) 295 - zhcxh
+  - 🇺🇸 美国 (United States) 296 - zhcxh
+  - 🇺🇸 美国 (United States) 297 - zhcxh
+  - 🇺🇸 美国 (United States) 298 - zhcxh
+  - 🇺🇸 美国 (United States) 299 - zhcxh
+  - 🇺🇸 美国 (United States) 300 - zhcxh
+  - 🇺🇸 美国 (United States) 301 - zhcxh
+  - 🇺🇸 美国 (United States) 302 - zhcxh
+  - 🇺🇸 美国 (United States) 303 - zhcxh
+  - 🇺🇸 美国 (United States) 304 - zhcxh
+  - 🇺🇸 美国 (United States) 305 - zhcxh
+  - 🇺🇸 美国 (United States) 306 - zhcxh
+  - 🇺🇸 美国 (United States) 307 - zhcxh
+  - 🇺🇸 美国 (United States) 308 - zhcxh
+  - 🇺🇸 美国 (United States) 309 - zhcxh
+  - 🇺🇸 美国 (United States) 310 - zhcxh
+  - 🇺🇸 美国 (United States) 311 - zhcxh
+  - 🇺🇸 美国 (United States) 312 - zhcxh
+  - 🇺🇸 美国 (United States) 313 - zhcxh
+  - 🇺🇸 美国 (United States) 314 - zhcxh
+  - 🇺🇸 美国 (United States) 315 - zhcxh
+  - 🇺🇸 美国 (United States) 316 - zhcxh
+  - 🇺🇸 美国 (United States) 317 - zhcxh
+  - 🇺🇸 美国 (United States) 318 - zhcxh
+  - 🇺🇸 美国 (United States) 319 - zhcxh
+  - 🇺🇸 美国 (United States) 320 - zhcxh
+  - 🇺🇸 美国 (United States) 321 - zhcxh
+  - 🇺🇸 美国 (United States) 322 - zhcxh
+  - 🇺🇸 美国 (United States) 323 - zhcxh
+  - 🇺🇸 美国 (United States) 324 - zhcxh
 rules:
 - MATCH,PROXIES

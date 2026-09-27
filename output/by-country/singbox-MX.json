@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇪 阿联酋 (UAE) 01 - zhcxh",
-        "🇦🇪 阿联酋 (UAE) 02 - zhcxh"
+        "🇲🇽 MX 01 - zhcxh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇪 阿联酋 (UAE) 01 - zhcxh",
-        "🇦🇪 阿联酋 (UAE) 02 - zhcxh"
+        "🇲🇽 MX 01 - zhcxh"
       ],
       "url": "https://www.google.com/generate_204"
     },
