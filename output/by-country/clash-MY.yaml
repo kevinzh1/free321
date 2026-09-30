@@ -40,6 +40,32 @@ proxies:
     path: /platform128
     headers:
       Host: platform128.halalkhor.info
+- name: 🇲🇾 MY 04 - zhcxh
+  type: vless
+  server: platform128.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform128
+    headers:
+      Host: platform128.golnamakcert.top
+- name: 🇲🇾 MY 05 - zhcxh
+  type: vless
+  server: platform128.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform128
+    headers:
+      Host: platform128.halalkhor.info
 proxy-groups:
 - name: PROXIES
   type: select
@@ -48,6 +74,8 @@ proxy-groups:
   - 🇲🇾 MY 01 - zhcxh
   - 🇲🇾 MY 02 - zhcxh
   - 🇲🇾 MY 03 - zhcxh
+  - 🇲🇾 MY 04 - zhcxh
+  - 🇲🇾 MY 05 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -56,5 +84,7 @@ proxy-groups:
   - 🇲🇾 MY 01 - zhcxh
   - 🇲🇾 MY 02 - zhcxh
   - 🇲🇾 MY 03 - zhcxh
+  - 🇲🇾 MY 04 - zhcxh
+  - 🇲🇾 MY 05 - zhcxh
 rules:
 - MATCH,PROXIES
