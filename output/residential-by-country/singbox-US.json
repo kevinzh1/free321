@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 MX 01 - zhcxh",
-        "🇲🇽 MX 02 - zhcxh",
-        "🇲🇽 MX 03 - zhcxh"
+        "🇺🇸 美国 (United States) 01 (家宽) - zhcxh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - zhcxh",
-        "🇲🇽 MX 02 - zhcxh",
-        "🇲🇽 MX 03 - zhcxh"
+        "🇺🇸 美国 (United States) 01 (家宽) - zhcxh"
       ],
       "url": "https://www.google.com/generate_204"
     },

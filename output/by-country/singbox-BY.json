@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇧🇾 BY 01 - zhcxh",
+        "🇧🇾 BY 02 - zhcxh",
+        "🇧🇾 BY 03 - zhcxh",
+        "🇧🇾 BY 04 - zhcxh",
+        "🇧🇾 BY 05 - zhcxh",
+        "🇧🇾 BY 06 - zhcxh"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇧🇾 BY 01 - zhcxh",
+        "🇧🇾 BY 02 - zhcxh",
+        "🇧🇾 BY 03 - zhcxh",
+        "🇧🇾 BY 04 - zhcxh",
+        "🇧🇾 BY 05 - zhcxh",
+        "🇧🇾 BY 06 - zhcxh"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
