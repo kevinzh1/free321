@@ -6,14 +6,24 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇱 CL 01 - zhcxh"
+        "🇨🇱 CL 01 - zhcxh",
+        "🇨🇱 CL 02 - zhcxh",
+        "🇨🇱 CL 03 - zhcxh",
+        "🇨🇱 CL 04 - zhcxh",
+        "🇨🇱 CL 05 - zhcxh",
+        "🇨🇱 CL 06 - zhcxh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇱 CL 01 - zhcxh"
+        "🇨🇱 CL 01 - zhcxh",
+        "🇨🇱 CL 02 - zhcxh",
+        "🇨🇱 CL 03 - zhcxh",
+        "🇨🇱 CL 04 - zhcxh",
+        "🇨🇱 CL 05 - zhcxh",
+        "🇨🇱 CL 06 - zhcxh"
       ],
       "url": "https://www.google.com/generate_204"
     },
