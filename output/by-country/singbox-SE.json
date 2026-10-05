@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇸🇪 SE 01 - zhcxh",
+        "🇸🇪 SE 02 - zhcxh",
+        "🇸🇪 SE 03 - zhcxh"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇸🇪 SE 01 - zhcxh",
+        "🇸🇪 SE 02 - zhcxh",
+        "🇸🇪 SE 03 - zhcxh"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
