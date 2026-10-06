@@ -4,31 +4,33 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇿 CZ 01 - zhcxh
-  type: vless
-  server: 104.18.34.21
-  port: 8443
-  uuid: 656bb400-3b7a-47e3-94b0-0362f3865072
+- name: 🇧🇷 BR 01 - zhcxh
+  type: vmess
+  server: 89.39.161.157
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: socks5.revil-time3.workers.dev
+  servername: aksai.org
   network: ws
   ws-opts:
-    path: /socks5://128.140.46.169:13482
+    path: /linkvws
     headers:
-      Host: socks5.revil-time3.workers.dev
+      Host: aksai.org
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇿 CZ 01 - zhcxh
+  - 🇧🇷 BR 01 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇿 CZ 01 - zhcxh
+  - 🇧🇷 BR 01 - zhcxh
 rules:
 - MATCH,PROXIES
