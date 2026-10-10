@@ -13,10 +13,10 @@ proxies:
   udp: true
 - name: 🇿🇦 ZA 02 - zhcxh
   type: ss
-  server: 102.37.156.224
+  server: 20.87.212.24
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: aduB9HGxQHjA2SBMRjkHX6
+  password: zlHMpI7N5dkZOHdH
   udp: true
 - name: 🇿🇦 ZA 03 - zhcxh
   type: vless
@@ -32,6 +32,13 @@ proxies:
   client-fingerprint: chrome
 - name: 🇿🇦 ZA 04 - zhcxh
   type: ss
+  server: 102.37.156.224
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: aduB9HGxQHjA2SBMRjkHX6
+  udp: true
+- name: 🇿🇦 ZA 05 - zhcxh
+  type: ss
   server: 102.133.165.160
   port: 16233
   cipher: chacha20-ietf-poly1305
@@ -46,6 +53,7 @@ proxy-groups:
   - 🇿🇦 ZA 02 - zhcxh
   - 🇿🇦 ZA 03 - zhcxh
   - 🇿🇦 ZA 04 - zhcxh
+  - 🇿🇦 ZA 05 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -55,5 +63,6 @@ proxy-groups:
   - 🇿🇦 ZA 02 - zhcxh
   - 🇿🇦 ZA 03 - zhcxh
   - 🇿🇦 ZA 04 - zhcxh
+  - 🇿🇦 ZA 05 - zhcxh
 rules:
 - MATCH,PROXIES

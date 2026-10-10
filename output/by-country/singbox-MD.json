@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇲🇩 MD 01 - zhcxh",
+        "🇲🇩 MD 02 - zhcxh",
+        "🇲🇩 MD 03 - zhcxh",
+        "🇲🇩 MD 04 - zhcxh",
+        "🇲🇩 MD 05 - zhcxh",
+        "🇲🇩 MD 06 - zhcxh",
+        "🇲🇩 MD 07 - zhcxh",
+        "🇲🇩 MD 08 - zhcxh",
+        "🇲🇩 MD 09 - zhcxh",
+        "🇲🇩 MD 10 - zhcxh",
+        "🇲🇩 MD 11 - zhcxh",
+        "🇲🇩 MD 12 - zhcxh",
+        "🇲🇩 MD 13 - zhcxh",
+        "🇲🇩 MD 14 - zhcxh",
+        "🇲🇩 MD 15 - zhcxh",
+        "🇲🇩 MD 16 - zhcxh",
+        "🇲🇩 MD 17 - zhcxh"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇲🇩 MD 01 - zhcxh",
+        "🇲🇩 MD 02 - zhcxh",
+        "🇲🇩 MD 03 - zhcxh",
+        "🇲🇩 MD 04 - zhcxh",
+        "🇲🇩 MD 05 - zhcxh",
+        "🇲🇩 MD 06 - zhcxh",
+        "🇲🇩 MD 07 - zhcxh",
+        "🇲🇩 MD 08 - zhcxh",
+        "🇲🇩 MD 09 - zhcxh",
+        "🇲🇩 MD 10 - zhcxh",
+        "🇲🇩 MD 11 - zhcxh",
+        "🇲🇩 MD 12 - zhcxh",
+        "🇲🇩 MD 13 - zhcxh",
+        "🇲🇩 MD 14 - zhcxh",
+        "🇲🇩 MD 15 - zhcxh",
+        "🇲🇩 MD 16 - zhcxh",
+        "🇲🇩 MD 17 - zhcxh"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
