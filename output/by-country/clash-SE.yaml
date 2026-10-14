@@ -19,6 +19,20 @@ proxies:
     headers:
       Host: ccc.010304.xyz
 - name: 🇸🇪 SE 02 - zhcxh
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 03 - zhcxh
   type: ss
   server: 70.34.212.124
   port: 8388
@@ -32,6 +46,7 @@ proxy-groups:
   - AUTO
   - 🇸🇪 SE 01 - zhcxh
   - 🇸🇪 SE 02 - zhcxh
+  - 🇸🇪 SE 03 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -39,5 +54,6 @@ proxy-groups:
   proxies:
   - 🇸🇪 SE 01 - zhcxh
   - 🇸🇪 SE 02 - zhcxh
+  - 🇸🇪 SE 03 - zhcxh
 rules:
 - MATCH,PROXIES
