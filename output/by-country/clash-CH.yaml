@@ -5,40 +5,36 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - zhcxh
-  type: ss
-  server: 86.106.84.194
-  port: 13261
-  cipher: aes-128-gcm
-  password: 2bf536a4bd6008511734a505d248de2c
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
   udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: firefox
 - name: 🇨🇭 CH 02 - zhcxh
   type: vless
-  server: 185.18.250.252
-  port: 443
-  uuid: f77299ea-e13d-417d-8cdc-ce5566dfc94b
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: edu.ruangguru.com.r3xxe.eu.cc
-  network: ws
-  ws-opts:
-    path: /nl-tw
-    headers:
-      Host: edu.ruangguru.com.r3xxe.eu.cc
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇨🇭 CH 03 - zhcxh
-  type: vless
-  server: 185.18.250.245
-  port: 443
-  uuid: f77299ea-e13d-417d-8cdc-ce5566dfc94b
+  type: ss
+  server: 132.243.175.144
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edu.ruangguru.com.r3xxe.eu.cc
-  network: ws
-  ws-opts:
-    path: /nl-tw
-    headers:
-      Host: edu.ruangguru.com.r3xxe.eu.cc
 - name: 🇨🇭 CH 04 - zhcxh
   type: vless
   server: 208.69.78.217
@@ -59,64 +55,12 @@ proxies:
   password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   udp: true
 - name: 🇨🇭 CH 06 - zhcxh
-  type: vless
-  server: 179.61.251.244
-  port: 7443
-  uuid: f95b160e-d716-4ac1-89d2-b16a5f3257e1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-- name: 🇨🇭 CH 07 - zhcxh
-  type: vless
-  server: 128.241.25.3
-  port: 30021
-  uuid: afec813e-a5c7-432d-be48-2803c30eea4e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-- name: 🇨🇭 CH 08 - zhcxh
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇨🇭 CH 09 - zhcxh
   type: ss
-  server: 132.243.175.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+  server: 86.106.84.194
+  port: 13261
+  cipher: aes-128-gcm
+  password: 2bf536a4bd6008511734a505d248de2c
   udp: true
-- name: 🇨🇭 CH 10 - zhcxh
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -128,10 +72,6 @@ proxy-groups:
   - 🇨🇭 CH 04 - zhcxh
   - 🇨🇭 CH 05 - zhcxh
   - 🇨🇭 CH 06 - zhcxh
-  - 🇨🇭 CH 07 - zhcxh
-  - 🇨🇭 CH 08 - zhcxh
-  - 🇨🇭 CH 09 - zhcxh
-  - 🇨🇭 CH 10 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -143,9 +83,5 @@ proxy-groups:
   - 🇨🇭 CH 04 - zhcxh
   - 🇨🇭 CH 05 - zhcxh
   - 🇨🇭 CH 06 - zhcxh
-  - 🇨🇭 CH 07 - zhcxh
-  - 🇨🇭 CH 08 - zhcxh
-  - 🇨🇭 CH 09 - zhcxh
-  - 🇨🇭 CH 10 - zhcxh
 rules:
 - MATCH,PROXIES
