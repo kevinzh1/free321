@@ -14,12 +14,19 @@ proxies:
   skip-cert-verify: true
 - name: 🇷🇴 RO 02 - zhcxh
   type: ss
+  server: 194.68.44.42
+  port: 64546
+  cipher: chacha20-ietf-poly1305
+  password: U83u9OGpvSatIUW7LsWffr
+  udp: true
+- name: 🇷🇴 RO 03 - zhcxh
+  type: ss
   server: bogging-eyeteeth-fly.freesocks.work
   port: 443
   cipher: chacha20-ietf-poly1305
   password: QFWzCw2uX9B9i6qAYeFBIE
   udp: true
-- name: 🇷🇴 RO 03 - zhcxh
+- name: 🇷🇴 RO 04 - zhcxh
   type: vless
   server: edge10.cyrionflare.com
   port: 2052
@@ -27,13 +34,30 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇷🇴 RO 04 - zhcxh
-  type: ss
-  server: 194.68.44.42
-  port: 64546
-  cipher: chacha20-ietf-poly1305
-  password: U83u9OGpvSatIUW7LsWffr
+- name: 🇷🇴 RO 05 - zhcxh
+  type: vless
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
   udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇷🇴 RO 06 - zhcxh
+  type: vless
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇷🇴 RO 07 - zhcxh
+  type: vless
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -43,6 +67,9 @@ proxy-groups:
   - 🇷🇴 RO 02 - zhcxh
   - 🇷🇴 RO 03 - zhcxh
   - 🇷🇴 RO 04 - zhcxh
+  - 🇷🇴 RO 05 - zhcxh
+  - 🇷🇴 RO 06 - zhcxh
+  - 🇷🇴 RO 07 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -52,5 +79,8 @@ proxy-groups:
   - 🇷🇴 RO 02 - zhcxh
   - 🇷🇴 RO 03 - zhcxh
   - 🇷🇴 RO 04 - zhcxh
+  - 🇷🇴 RO 05 - zhcxh
+  - 🇷🇴 RO 06 - zhcxh
+  - 🇷🇴 RO 07 - zhcxh
 rules:
 - MATCH,PROXIES
