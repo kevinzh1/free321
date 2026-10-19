@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇹🇭 TH 01 - zhcxh
   type: vless
-  server: 188.114.98.0
+  server: 104.18.26.90
   port: 443
   uuid: 3c52e091-6714-4915-949f-2149fe69951b
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: v2ray.simspeedup.com
 - name: 🇹🇭 TH 02 - zhcxh
   type: vless
-  server: 104.18.26.90
+  server: 104.16.10.185
   port: 443
   uuid: 3c52e091-6714-4915-949f-2149fe69951b
   udp: true
@@ -33,19 +33,19 @@ proxies:
     headers:
       Host: v2ray.simspeedup.com
 - name: 🇹🇭 TH 03 - zhcxh
-  type: ss
-  server: pphfree2.mvpnpvpn.de5.net
-  port: 52351
-  cipher: aes-256-gcm
-  password: sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c=
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
   udp: true
-- name: 🇹🇭 TH 04 - zhcxh
-  type: ss
-  server: 103.107.52.106
-  port: 52351
-  cipher: aes-256-gcm
-  password: sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c=
-  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray.simspeedup.com
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: v2ray.simspeedup.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -54,7 +54,6 @@ proxy-groups:
   - 🇹🇭 TH 01 - zhcxh
   - 🇹🇭 TH 02 - zhcxh
   - 🇹🇭 TH 03 - zhcxh
-  - 🇹🇭 TH 04 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -63,6 +62,5 @@ proxy-groups:
   - 🇹🇭 TH 01 - zhcxh
   - 🇹🇭 TH 02 - zhcxh
   - 🇹🇭 TH 03 - zhcxh
-  - 🇹🇭 TH 04 - zhcxh
 rules:
 - MATCH,PROXIES
