@@ -14,12 +14,13 @@ proxies:
   skip-cert-verify: true
 - name: 🇵🇱 PL 02 - zhcxh
   type: vless
-  server: site.teslamotor.site
-  port: 20001
-  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
+  server: 2.26.225.89
+  port: 8443
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: pl.flen-vpn.xyz
 - name: 🇵🇱 PL 03 - zhcxh
   type: vless
   server: pl1.h1cloud.net
@@ -32,15 +33,6 @@ proxies:
     public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
   servername: www.samsung.com
   client-fingerprint: chrome
-- name: 🇵🇱 PL 04 - zhcxh
-  type: vless
-  server: 2.26.225.89
-  port: 8443
-  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: pl.flen-vpn.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -49,7 +41,6 @@ proxy-groups:
   - 🇵🇱 PL 01 - zhcxh
   - 🇵🇱 PL 02 - zhcxh
   - 🇵🇱 PL 03 - zhcxh
-  - 🇵🇱 PL 04 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -58,6 +49,5 @@ proxy-groups:
   - 🇵🇱 PL 01 - zhcxh
   - 🇵🇱 PL 02 - zhcxh
   - 🇵🇱 PL 03 - zhcxh
-  - 🇵🇱 PL 04 - zhcxh
 rules:
 - MATCH,PROXIES
