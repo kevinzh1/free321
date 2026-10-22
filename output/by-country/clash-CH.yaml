@@ -13,34 +13,6 @@ proxies:
   udp: true
 - name: 🇨🇭 CH 02 - zhcxh
   type: vless
-  server: 116.204.164.5
-  port: 7443
-  uuid: 2416ff70-cb17-4cdc-834d-a89c00261e01
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-- name: 🇨🇭 CH 03 - zhcxh
-  type: vless
-  server: 79.137.199.52
-  port: 21
-  uuid: 763e2ddd-c830-4f4f-801c-f6f2c3418d4f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-- name: 🇨🇭 CH 04 - zhcxh
-  type: vless
   server: 208.69.78.217
   port: 2053
   uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
@@ -58,8 +30,6 @@ proxy-groups:
   - AUTO
   - 🇨🇭 CH 01 - zhcxh
   - 🇨🇭 CH 02 - zhcxh
-  - 🇨🇭 CH 03 - zhcxh
-  - 🇨🇭 CH 04 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -67,7 +37,5 @@ proxy-groups:
   proxies:
   - 🇨🇭 CH 01 - zhcxh
   - 🇨🇭 CH 02 - zhcxh
-  - 🇨🇭 CH 03 - zhcxh
-  - 🇨🇭 CH 04 - zhcxh
 rules:
 - MATCH,PROXIES
