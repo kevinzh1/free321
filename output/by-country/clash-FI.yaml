@@ -5,17 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - zhcxh
-  type: vless
-  server: 95.216.27.15
-  port: 2053
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
+  type: ss
+  server: 94.177.145.151
+  port: 2083
+  cipher: chacha20-ietf-poly1305
+  password: banJ58KfDF21KoMFZ5TXmg
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-  servername: www.google.com
-  client-fingerprint: random
 - name: 🇫🇮 FI 02 - zhcxh
   type: vless
   server: 95.216.27.15
@@ -42,18 +37,6 @@ proxies:
   client-fingerprint: firefox
 - name: 🇫🇮 FI 04 - zhcxh
   type: vless
-  server: 95.216.27.15
-  port: 2053
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-  servername: www.google.com
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 05 - zhcxh
-  type: vless
   server: 45.144.234.157
   port: 14430
   uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
@@ -65,19 +48,7 @@ proxies:
     path: /vless
     headers:
       Host: 45.144.234.157
-- name: 🇫🇮 FI 06 - zhcxh
-  type: vless
-  server: 95.216.27.15
-  port: 2053
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-  servername: www.google.com
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 07 - zhcxh
+- name: 🇫🇮 FI 05 - zhcxh
   type: vless
   server: 95.216.27.15
   port: 2053
@@ -89,33 +60,7 @@ proxies:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
   client-fingerprint: firefox
-- name: 🇫🇮 FI 08 - zhcxh
-  type: vless
-  server: 45.144.234.157
-  port: 14430
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.144.234.157
-- name: 🇫🇮 FI 09 - zhcxh
-  type: vless
-  server: 45.144.234.157
-  port: 14430
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.144.234.157
-- name: 🇫🇮 FI 10 - zhcxh
+- name: 🇫🇮 FI 06 - zhcxh
   type: vless
   server: 45.144.234.157
   port: 14430
@@ -139,10 +84,6 @@ proxy-groups:
   - 🇫🇮 FI 04 - zhcxh
   - 🇫🇮 FI 05 - zhcxh
   - 🇫🇮 FI 06 - zhcxh
-  - 🇫🇮 FI 07 - zhcxh
-  - 🇫🇮 FI 08 - zhcxh
-  - 🇫🇮 FI 09 - zhcxh
-  - 🇫🇮 FI 10 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -154,9 +95,5 @@ proxy-groups:
   - 🇫🇮 FI 04 - zhcxh
   - 🇫🇮 FI 05 - zhcxh
   - 🇫🇮 FI 06 - zhcxh
-  - 🇫🇮 FI 07 - zhcxh
-  - 🇫🇮 FI 08 - zhcxh
-  - 🇫🇮 FI 09 - zhcxh
-  - 🇫🇮 FI 10 - zhcxh
 rules:
 - MATCH,PROXIES
