@@ -15,12 +15,13 @@ proxies:
   servername: th001.zestapp778.com
 - name: 🇹🇭 TH 02 - zhcxh
   type: vless
-  server: 103.86.49.57
-  port: 80
+  server: 104.16.10.2
+  port: 443
   uuid: 3c52e091-6714-4915-949f-2149fe69951b
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: v2ray.simspeedup.com
   network: ws
   ws-opts:
     path: /ws
@@ -28,13 +29,12 @@ proxies:
       Host: v2ray.simspeedup.com
 - name: 🇹🇭 TH 03 - zhcxh
   type: vless
-  server: 104.16.10.185
-  port: 443
+  server: 103.86.49.57
+  port: 80
   uuid: 3c52e091-6714-4915-949f-2149fe69951b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: v2ray.simspeedup.com
   network: ws
   ws-opts:
     path: /ws
@@ -52,7 +52,7 @@ proxies:
   ws-opts:
     path: /ws
     headers:
-      Host: ais.speedtest.net
+      Host: aIs.SpEeDtEsT.nEt
 - name: 🇹🇭 TH 05 - zhcxh
   type: vless
   server: 104.16.10.9
@@ -78,7 +78,7 @@ proxies:
   servername: th001.zestapp778.com
 - name: 🇹🇭 TH 07 - zhcxh
   type: vless
-  server: th001.zestapp778.com
+  server: 38.60.254.50
   port: 22222
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -86,6 +86,29 @@ proxies:
   skip-cert-verify: true
   servername: th001.zestapp778.com
 - name: 🇹🇭 TH 08 - zhcxh
+  type: vless
+  server: th001.zestapp778.com
+  port: 22222
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: th001.zestapp778.com
+- name: 🇹🇭 TH 09 - zhcxh
+  type: vless
+  server: 104.16.10.185
+  port: 443
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray.simspeedup.com
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: v2ray.simspeedup.com
+- name: 🇹🇭 TH 10 - zhcxh
   type: vless
   server: th001.zestapp778.com
   port: 22222
@@ -107,6 +130,8 @@ proxy-groups:
   - 🇹🇭 TH 06 - zhcxh
   - 🇹🇭 TH 07 - zhcxh
   - 🇹🇭 TH 08 - zhcxh
+  - 🇹🇭 TH 09 - zhcxh
+  - 🇹🇭 TH 10 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -120,5 +145,7 @@ proxy-groups:
   - 🇹🇭 TH 06 - zhcxh
   - 🇹🇭 TH 07 - zhcxh
   - 🇹🇭 TH 08 - zhcxh
+  - 🇹🇭 TH 09 - zhcxh
+  - 🇹🇭 TH 10 - zhcxh
 rules:
 - MATCH,PROXIES
