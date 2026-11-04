@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 LK 01 - zhcxh"
+        "🇨🇳 CN 01 - zhcxh",
+        "🇨🇳 CN 02 - zhcxh",
+        "🇨🇳 CN 03 - zhcxh",
+        "🇨🇳 CN 04 - zhcxh"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 LK 01 - zhcxh"
+        "🇨🇳 CN 01 - zhcxh",
+        "🇨🇳 CN 02 - zhcxh",
+        "🇨🇳 CN 03 - zhcxh",
+        "🇨🇳 CN 04 - zhcxh"
       ],
       "url": "https://www.google.com/generate_204"
     },
