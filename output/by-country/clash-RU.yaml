@@ -5,39 +5,30 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - zhcxh
-  type: ss
-  server: 90.156.203.62
-  port: 5112
-  cipher: chacha20-ietf-poly1305
-  password: VVlAff77CnAU43Aoc5j15Y
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 02 - zhcxh
   type: vless
-  server: 172.66.47.56
+  server: xsru2.freeddns.org
   port: 443
-  uuid: 3dc83518-4002-485e-a066-d3bbcaaa2b2e
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: K9-85J.paGEs.Dev
+  servername: xsru2.freeddns.org
   network: ws
   ws-opts:
-    path: /1WWzkWgNslKTcceU?ed=2560
+    path: /wsru
     headers:
-      Host: k9-85j.pages.dev
+      Host: xsru2.freeddns.org
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - zhcxh
-  - 🇷🇺 俄罗斯 (Russia) 02 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - zhcxh
-  - 🇷🇺 俄罗斯 (Russia) 02 - zhcxh
 rules:
 - MATCH,PROXIES
