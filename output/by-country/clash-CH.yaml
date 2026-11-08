@@ -5,12 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - zhcxh
-  type: ss
-  server: 23.166.88.127
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  type: vless
+  server: 8.6.112.0
+  port: 8443
+  uuid: 8eb92a78-ec8d-4ff6-8a2d-8b801367be87
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: KAmraN02-3rpN9m-2.KAMran-02.WORKErS.dEV
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: KAmraN02-3rpN9m-2.KAMran-02.WORKErS.dEV
 - name: 🇨🇭 CH 02 - zhcxh
   type: vless
   server: 208.69.78.217
@@ -24,12 +31,17 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇨🇭 CH 03 - zhcxh
-  type: ss
-  server: 79.127.184.104
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
   udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: random
 - name: 🇨🇭 CH 04 - zhcxh
   type: vless
   server: 208.69.78.217
@@ -41,8 +53,58 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇨🇭 CH 05 - zhcxh
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇨🇭 CH 06 - zhcxh
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇨🇭 CH 07 - zhcxh
+  type: ss
+  server: 79.127.184.104
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇭 CH 08 - zhcxh
+  type: ss
+  server: 23.166.88.127
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇭 CH 09 - zhcxh
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇨🇭 CH 10 - zhcxh
   type: ss
   server: 186.190.215.251
   port: 19999
@@ -59,6 +121,11 @@ proxy-groups:
   - 🇨🇭 CH 03 - zhcxh
   - 🇨🇭 CH 04 - zhcxh
   - 🇨🇭 CH 05 - zhcxh
+  - 🇨🇭 CH 06 - zhcxh
+  - 🇨🇭 CH 07 - zhcxh
+  - 🇨🇭 CH 08 - zhcxh
+  - 🇨🇭 CH 09 - zhcxh
+  - 🇨🇭 CH 10 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -69,5 +136,10 @@ proxy-groups:
   - 🇨🇭 CH 03 - zhcxh
   - 🇨🇭 CH 04 - zhcxh
   - 🇨🇭 CH 05 - zhcxh
+  - 🇨🇭 CH 06 - zhcxh
+  - 🇨🇭 CH 07 - zhcxh
+  - 🇨🇭 CH 08 - zhcxh
+  - 🇨🇭 CH 09 - zhcxh
+  - 🇨🇭 CH 10 - zhcxh
 rules:
 - MATCH,PROXIES
