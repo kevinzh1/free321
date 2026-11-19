@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - zhcxh
   type: vless
-  server: 198.202.24.142
+  server: 104.17.145.145
   port: 2083
   uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: vipfree.dr-ping.ir
 - name: 🇫🇮 FI 02 - zhcxh
   type: vless
-  server: 198.202.24.142
+  server: 172.64.79.163
   port: 2083
   uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
   udp: true
