@@ -12,30 +12,19 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇦🇹 AT 02 - zhcxh
-  type: vless
-  server: 172.67.199.12
-  port: 443
-  uuid: 963A4918-A630-29DA-A873-093CDF8AD784
+  type: ss
+  server: 152.53.1.57
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ancient-haze-d203.vpnetwork3567.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ancient-haze-d203.vpnetwork3567.workers.dev
 - name: 🇦🇹 AT 03 - zhcxh
-  type: vmess
-  server: leviko-at0752.shopingggg.ir
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 82.110.60.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
 - name: 🇦🇹 AT 04 - zhcxh
   type: vless
   server: 172.67.199.12
@@ -50,20 +39,6 @@ proxies:
     path: /
     headers:
       Host: ancient-haze-d203.vpnetwork3567.workers.dev
-- name: 🇦🇹 AT 05 - zhcxh
-  type: ss
-  server: 82.110.60.9
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇦🇹 AT 06 - zhcxh
-  type: ss
-  server: 152.53.1.57
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -73,8 +48,6 @@ proxy-groups:
   - 🇦🇹 AT 02 - zhcxh
   - 🇦🇹 AT 03 - zhcxh
   - 🇦🇹 AT 04 - zhcxh
-  - 🇦🇹 AT 05 - zhcxh
-  - 🇦🇹 AT 06 - zhcxh
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -84,7 +57,5 @@ proxy-groups:
   - 🇦🇹 AT 02 - zhcxh
   - 🇦🇹 AT 03 - zhcxh
   - 🇦🇹 AT 04 - zhcxh
-  - 🇦🇹 AT 05 - zhcxh
-  - 🇦🇹 AT 06 - zhcxh
 rules:
 - MATCH,PROXIES
